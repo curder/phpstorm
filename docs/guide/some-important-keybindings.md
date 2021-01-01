@@ -17,7 +17,7 @@
 > 如果执行上面的命令打开带有 `apropos` 搜索而不是 `查找操作`
 >
 对话框的终端，请[参考这里](https://intellij-support.jetbrains.com/hc/en-us/articles/360005137400-Cmd-Shift-A-hotkey-opens-Terminal-with-apropos-search-instead-of-the-Find-Action-dialog)
-> 。
+> 
 > :::  details 点击切换截图展示与隐藏
 > 1. 打开 `苹果系统菜单` | `系统偏好设置` | `键盘` | `快捷键` | `服务`
 > 2. 禁用或 Search man Page Index in Terminal (or change the shortcut)
