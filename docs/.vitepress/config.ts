@@ -40,6 +40,8 @@ function sidebarGuide() {
             items: [
                 {text: "为什么选择 PhpStorm", link: "/guide/what-is-phpstorm"},
                 {text: "下载和安装", link: "/guide/getting-started"},
+                {text: "选择主题", link: "/guide/themes"},
+                {text: "极简配置", link: "/guide/minimalism.md"},
             ]
         }
     ];
