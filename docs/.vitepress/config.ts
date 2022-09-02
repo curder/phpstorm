@@ -27,7 +27,7 @@ export default defineConfig({
 
 function nav() {
     return [
-        {text: 'Guide', link: '/guide/what-is-phpstorm', activeMatch: '/guide/'},
+        {text: 'Guide', link: '/guide/getting-started', activeMatch: '/guide/'},
     ];
 }
 
@@ -39,6 +39,7 @@ function sidebarGuide() {
             collapsed: false,
             items: [
                 {text: "为什么选择 PhpStorm", link: "/guide/what-is-phpstorm"},
+                {text: "下载和安装", link: "/guide/getting-started"},
             ]
         }
     ];
