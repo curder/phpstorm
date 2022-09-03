@@ -253,8 +253,37 @@
 
 可以使用如下方式进行关闭：
 
-使用快捷键 `Shift` + `Shift` 在弹出的搜索中输入 `Show method separators` 关键字后，按 `Enter` 回车选择关闭右侧方法分割线
+- 方式一：在 PhpStorm 的 `Preferences` 偏好设置中选择 `Editor` -> `General` -> `Appearance` 中不勾选 `Show method separators` 后，点击 **OK** 保存即可
 
-::: details 点击切换截图展示与隐藏
-![](./images/minimalism/show-method-separators-keymap.png)
-:::
+    ::: details 点击切换截图展示与隐藏
+    ![](./images/minimalism/show-method-separators-steps.png)
+    :::
+
+* 方式二：使用快捷键 `Shift` + `Shift` 在弹出的搜索中输入 `Show method separators` 关键字后，按 `Enter` 回车选择关闭右侧方法分割线
+
+    ::: details 点击切换截图展示与隐藏
+    ![](./images/minimalism/show-method-separators-keymap.png)
+    :::
+
+
+## 无干扰模式 distraction free mode
+
+默认情况下编辑器的代码是居左对齐的，编辑器提供了一种无干扰模式，可以让代码居中展示，让我们更加集中在编码工作。开启方法如下：
+
+* 方式一：使用快捷键 `Command + ~`，在弹出层选择 `4 View Mode` 按回车后再选择 `2 Enter Distraction Free Mode`，即可快速切换无干扰模式
+    ::: details 点击切换截图展示与隐藏
+    ![](./images/minimalism/distraction-free-mode.gif)
+    :::
+
+
+* 方式二：在菜单栏依次选择的 `Views` -> `Appearance` -> `Enter Distraction Free Mode`，点击启用。
+    
+    ::: details 点击切换截图展示与隐藏
+    ![](./images/minimalism/distraction-free-mode-steps.png)
+    :::
+
+* 方式三：使用快捷键 `Shift` + `Shift` 在弹出的搜索中输入 `distraction free mode` 关键字后，按 `Enter` 回车选择关闭右侧方法分割线
+
+    ::: details 点击切换截图展示与隐藏
+    ![](./images/minimalism/distraction-free-mode-keymap.png)
+    :::
