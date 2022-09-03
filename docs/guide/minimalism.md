@@ -242,3 +242,19 @@
 ::: details 点击切换截图展示与隐藏
 ![](./images/minimalism/right-margin-keymap.png)
 :::
+
+## 显示方法分隔符 Show method separators
+
+默认编辑器在每个方法定义上方有一条横线，如下：
+
+::: details 点击切换截图展示与隐藏
+![](./images/minimalism/show-method-separators.png)
+:::
+
+可以使用如下方式进行关闭：
+
+使用快捷键 `Shift` + `Shift` 在弹出的搜索中输入 `Show method separators` 关键字后，按 `Enter` 回车选择关闭右侧方法分割线
+
+::: details 点击切换截图展示与隐藏
+![](./images/minimalism/show-method-separators-keymap.png)
+:::
