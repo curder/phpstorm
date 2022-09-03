@@ -1,10 +1,14 @@
 # 选择主题
 
-编辑器默认自带的主题比较简陋，最快速美化的方式是下载主题插件解决。
+编辑器默认自带的主题比较简陋，最快速美化的方式是下载主题插件解决，也可以导入网上别人贡献的主题配色。
 
-下面以安装 [Material Theme UI](https://plugins.jetbrains.com/plugin/8006-material-theme-ui) 主题和 [Atom One Theme](https://plugins.jetbrains.com/plugin/14799-atom-one-theme) 为例，列举主题的安装和启用流程。
+下面以安装 [Material Theme UI](https://plugins.jetbrains.com/plugin/8006-material-theme-ui) 主题、[Atom One Theme](https://plugins.jetbrains.com/plugin/14799-atom-one-theme) 和自定义主题配色为例，列举主题的安装和启用流程。
 
-## 安装 Material Theme UI
+## Material Theme UI
+
+Material Theme UI 提供了较多风格的主题配色供用户选择，可以方便的切换，一些高级配置功能需要购买订阅。
+
+### 安装
 
 1. 使用快捷键 `Command + ,`（或者点击 `PhpStorm` -> `Preferences...`） 进入到偏好设置后，选择 `Plugins`
    ![](./images/themes/plugins.png)
@@ -12,7 +16,7 @@
 3. 点击 Install 完成安装
 4. 重启 PhpStorm
 
-## 启用 Material Theme UI
+### 启用
 
 需要激活主题可以使用快捷键 `Command + ~`，在弹出层选择喜好的主题配色。
 
@@ -22,7 +26,11 @@
 
 > **注意：** `~` 在数字 `1` 左侧的按键。
 
-## 安装 Atom One Theme
+##  Atom One Theme
+
+Atom One Theme 主题拥有两种颜色搭配，分别是 Atom One Dark 和 Atom One Light，暗色和亮色。
+
+### 安装
 
 1. 使用快捷键 `Command + ,`（或者点击 `PhpStorm` -> `Preferences...`） 进入到偏好设置后，选择 `Plugins`
    ![](./images/themes/plugins.png)
@@ -30,7 +38,7 @@
 3. 点击 Install 完成安装
 4. 重启 PhpStorm
 
-## 启用 Atom One Theme
+### 启用
 
 需要激活主题可以使用快捷键 `Command + ~`，在弹出层选择喜好的主题配色。
 
@@ -41,7 +49,7 @@
 
 > **注意：** `~` 在数字 `1` 左侧的按键。
 
-## 修改 Atom One Theme 背景色
+### 修改 Atom One Theme 背景色
 
 针对PHP文件的代码会有一个背景色，可以通过下面的步骤将其修正。
 
@@ -50,3 +58,23 @@
 ::: details 点击切换截图展示与隐藏
 ![](./images/themes/fixed-atom-one-theme-php-code-backgroup-color.png)
 :::
+
+## 自定义主题
+
+站在巨人的肩膀上让我们事半功倍，感谢开源。
+
+可以在 [这里选择配色风格](http://daylerees.github.io/)，然后在[这个代码仓库](https://github.com/daylerees/colour-schemes)选择并下载对应的 `.icls` 主题配色文件。
+
+比如这里以安装：`Laravel Contrast` 这个主题配色。需要如下步骤：
+
+1. 在仓库中定位到 jetbrains 目录并找到 [Laravel Contrast 对应的 icls 文件](https://github.com/daylerees/colour-schemes/blob/master/jetbrains/contrast/laravel-contrast.icls)
+2. 点击 GitHub 页面上的 Raw 按钮，来到[查看源码页面](https://raw.githubusercontent.com/daylerees/colour-schemes/master/jetbrains/contrast/laravel-contrast.icls)
+3. 使用例如 wget 命令主体配色文件 `laravel-contrast.icls`，比如：`wget https://raw.githubusercontent.com/daylerees/colour-schemes/master/jetbrains/contrast/laravel-contrast.icls -O ~/Desktop/laravel-contrast.icls` （命令将文件下载到了桌面）
+4. 编辑器启用
+   1. 在 PhpStorm 的 `Preferences` 偏好设置中选择 `Editor` -> `Color Scheme`
+   2. 点击 Scheme 右侧的设置小齿轮，在下拉菜单中选择 `Import Scheme...` 后选择上面下载好的 `laravel-contrast.icls`，启用主题配色
+
+
+### 自定义主题推荐
+
+- [brendt/phpstorm-light-lite-theme](https://github.com/brendt/phpstorm-light-lite-theme)
