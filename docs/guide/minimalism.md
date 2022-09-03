@@ -271,10 +271,10 @@
 默认情况下编辑器的代码是居左对齐的，编辑器提供了一种无干扰模式，可以让代码居中展示，让我们更加集中在编码工作。开启方法如下：
 
 * 方式一：使用快捷键 `Command + ~`，在弹出层选择 `4 View Mode` 按回车后再选择 `2 Enter Distraction Free Mode`，即可快速切换无干扰模式
+    > **注意：** `~` 在数字 `1` 左侧的按键。
     ::: details 点击切换截图展示与隐藏
     ![](./images/minimalism/distraction-free-mode.gif)
     :::
-
 
 * 方式二：在菜单栏依次选择的 `Views` -> `Appearance` -> `Enter Distraction Free Mode`，点击启用。
     
