@@ -45,6 +45,7 @@ function sidebarGuide() {
                 {text: "常用快捷键", link: "/guide/some-important-keybindings"},
                 {text: "快速创建文件", link: "/guide/create-new-files-quickly"},
                 {text: "自定义文件模版", link: "/guide/custom-file-templates"},
+                {text: "代码片段", link: "/guide/live-templates"},
             ]
         }
     ];
