@@ -56,6 +56,7 @@ function sidebarGuide() {
                 {text: "多点编辑", link: "/guide/multiple-cursors"},
                 {text: "窗口分割", link: "/guide/window-splits"},
                 {text: "带映射的 Vi 模式", link: "/guide/vi-mode-with-mappings"},
+                {text: "Composer 依赖", link: "/guide/composer-dependencies"},
             ]
         }
     ];
