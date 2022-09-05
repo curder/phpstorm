@@ -51,6 +51,7 @@ function sidebarGuide() {
                 {text: "重构之向上拉成员", link: "/guide/refactoring-for-pull-members-up"},
                 {text: "重构之提取接口", link: "/guide/refactoring-for-extract-interface"},
                 {text: "重构之引入变量", link: "/guide/refactoring-for-introduce-variable"},
+                {text: "快速组合", link: "/guide/fast-composition"},
             ]
         }
     ];
