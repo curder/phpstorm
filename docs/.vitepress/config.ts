@@ -48,6 +48,7 @@ function sidebarGuide() {
                 {text: "代码片段", link: "/guide/live-templates"},
                 {text: "自定义代码风格", link: "/guide/custom-formatting"},
                 {text: "重构变量名和方法", link: "/guide/refactoring-for-name-and-method"},
+                {text: "重构之向上拉成员", link: "/guide/refactoring-for-pull-members-up"},
             ]
         }
     ];
