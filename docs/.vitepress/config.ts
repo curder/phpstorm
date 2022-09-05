@@ -54,6 +54,7 @@ function sidebarGuide() {
                 {text: "快速组合", link: "/guide/fast-composition"},
                 {text: "导航到符号", link: "/guide/navigate-to-symbol"},
                 {text: "多点编辑", link: "/guide/multiple-cursors"},
+                {text: "窗口分割", link: "/guide/window-splits"},
             ]
         }
     ];
