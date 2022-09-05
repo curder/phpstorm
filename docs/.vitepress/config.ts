@@ -50,6 +50,7 @@ function sidebarGuide() {
                 {text: "重构变量名和方法", link: "/guide/refactoring-for-name-and-method"},
                 {text: "重构之向上拉成员", link: "/guide/refactoring-for-pull-members-up"},
                 {text: "重构之提取接口", link: "/guide/refactoring-for-extract-interface"},
+                {text: "重构之引入变量", link: "/guide/refactoring-for-introduce-variable"},
             ]
         }
     ];
