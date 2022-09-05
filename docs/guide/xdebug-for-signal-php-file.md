@@ -7,11 +7,9 @@
 ```php
 <?php
 
-// index.php
-
 function getMessage(string $name, int $step): string
 {
-  if ($step === 1) {
+    if ($step === 1) {
         $message = "At step1";
     } else if ($step === 2) {
         $message = 'At step2';
