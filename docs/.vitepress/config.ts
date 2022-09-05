@@ -59,6 +59,7 @@ function sidebarGuide() {
                 {text: "PHP 文件使用 Xdebug", link: "/guide/xdebug-for-signal-php-file"},
                 {text: "Laravel 项目中使用 Xdebug - todo", link: "/guide/xdebug-for-laravel"},
                 {text: "Composer 依赖", link: "/guide/composer-dependencies"},
+                {text: "PHPUnit 单元测试", link: "/guide/testing-laravel-using-phpunit"},
             ]
         }
     ];
