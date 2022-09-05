@@ -57,6 +57,7 @@ function sidebarGuide() {
                 {text: "窗口分割 - todo", link: "/guide/window-splits"},
                 {text: "带映射的 Vi 模式 - todo", link: "/guide/vi-mode-with-mappings"},
                 {text: "PHP 文件使用 Xdebug", link: "/guide/xdebug-for-signal-php-file"},
+                {text: "Laravel 项目中使用 Xdebug", link: "/guide/xdebug-for-laravel"},
                 {text: "Composer 依赖", link: "/guide/composer-dependencies"},
             ]
         }
