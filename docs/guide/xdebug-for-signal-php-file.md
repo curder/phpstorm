@@ -96,3 +96,5 @@ PhpStorm 支持直接使用 Xdebug 调试 PHP 文件，但是需要有如下前�
 ![](./images/xdebug-for-signal-php-file/add-variable-to-watches.gif)
 
 这样方便在众多变量中筛选出关心的变量进行监听查看。
+
+![](./images/xdebug-for-signal-php-file/show-variables-on-watches.png)
