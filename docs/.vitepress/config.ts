@@ -60,6 +60,7 @@ function sidebarGuide() {
                 {text: "Laravel 项目中使用 Xdebug - todo", link: "/guide/xdebug-for-laravel"},
                 {text: "Composer 依赖", link: "/guide/composer-dependencies"},
                 {text: "PHPUnit 单元测试", link: "/guide/testing-laravel-using-phpunit"},
+                {text: "搜索结果使用自定义范围 - TODO", link: "/guide/better-search-results-with-custom-scopes"}
             ]
         }
     ];
