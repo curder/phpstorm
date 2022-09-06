@@ -34,7 +34,7 @@ function nav() {
 function sidebarGuide() {
     return [
         {
-            text: "基础",
+            text: "",
             collapsible: true,
             collapsed: false,
             items: [
@@ -61,6 +61,7 @@ function sidebarGuide() {
                 {text: "Composer 依赖", link: "/guide/composer-dependencies"},
                 {text: "PHPUnit 单元测试", link: "/guide/testing-laravel-using-phpunit"},
                 {text: "自动 PSR-4 命名空间", link: "/guide/automatic-psr-4-namespacing"},
+                {text: "PSR-12 代码风格", link: "/guide/php-cs-fixer-processing-code-style"},
                 {text: "搜索结果使用自定义范围 - TODO", link: "/guide/better-search-results-with-custom-scopes"}
             ]
         }
