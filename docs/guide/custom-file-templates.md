@@ -5,24 +5,25 @@
 PhpStorm 默认内置一些文件模版，要定位到自定义文件模版有如下两种方式：
 
 1. 在 PhpStorm 的 `Preferences` 偏好设置中选择 `Editor` -> `File and Code Templates` 
-    
+
+
+2. 或者通过快捷键 `Command + Shift + A` 呼出 `Action` 导航界面，在输入框输入 `file and code templates`，在下拉列表中选中`File and Code Templates`：
+        
     ::: details 点击切换截图展示与隐藏
     ![](./images/custom-file-templates/search-file-and-code-templates.png)
     :::
 
-2. 或者通过快捷键 `Command + Shift + A` 呼出 `Action` 导航界面，在输入框输入 `templates`，在下拉列表中选中`File and Code Templates`：
-    
-    进入文件代码模板界面，在这里可以看到 PhpStorm 内置支持的所有语言/框架的代码模板：
+进入文件代码模板界面，在这里可以看到 PhpStorm 内置支持的所有语言/框架的代码模板：
 
-    ::: details 点击切换截图展示与隐藏
-    ![](./images/custom-file-templates/file-and-code-templates.png)
-    :::
+::: details 点击切换截图展示与隐藏
+![](./images/custom-file-templates/file-and-code-templates.png)
+:::
 
-    这些文件列表模版的内容对应在新建文件时默认的文件内容：
+这些文件列表模版的内容对应在新建文件时默认的文件内容：
 
-    ::: details 点击切换截图展示与隐藏
-    ![](./images/custom-file-templates/file-and-code-templates-related-nwe-file.png)
-    :::
+::: details 点击切换截图展示与隐藏
+![](./images/custom-file-templates/file-and-code-templates-related-nwe-file.png)
+:::
 
 ## 内容简单说明
 
