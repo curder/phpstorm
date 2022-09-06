@@ -44,7 +44,7 @@ function sidebarGuide() {
                 {text: "极简配置", link: "/guide/minimalism.md"},
                 {text: "常用快捷键", link: "/guide/some-important-keybindings"},
                 {text: "快速创建文件", link: "/guide/create-new-files-quickly"},
-                {text: "自定义文件模版 - todo", link: "/guide/custom-file-templates"},
+                {text: "自定义文件模版", link: "/guide/custom-file-templates"},
                 {text: "代码片段 - todo", link: "/guide/live-templates"},
                 {text: "自定义代码风格 - todo", link: "/guide/custom-formatting"},
                 {text: "重构变量名和方法 - todo", link: "/guide/refactoring-for-name-and-method"},
