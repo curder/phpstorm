@@ -48,7 +48,7 @@ function sidebarGuide() {
                 {text: "代码片段", link: "/guide/live-templates"},
                 {text: "自定义代码风格 - todo", link: "/guide/custom-formatting"},
                 {text: "重构变量名和方法", link: "/guide/refactoring-for-property-and-method"},
-                {text: "重构之向上拉成员 - todo", link: "/guide/refactoring-for-pull-members-up"},
+                {text: "重构之父子类之间转移方法", link: "/guide/refactoring-for-pull-members-up"},
                 {text: "重构之提取接口 - todo", link: "/guide/refactoring-for-extract-interface"},
                 {text: "重构之引入变量 - todo", link: "/guide/refactoring-for-introduce-variable"},
                 {text: "快速编写构造函数", link: "/guide/fast-construct-method"},
