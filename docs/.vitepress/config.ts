@@ -53,7 +53,7 @@ function sidebarGuide() {
                 {text: "重构之引入变量 - todo", link: "/guide/refactoring-for-introduce-variable"},
                 {text: "快速组合 - todo", link: "/guide/fast-composition"},
                 {text: "导航到符号 - todo", link: "/guide/navigate-to-symbol"},
-                {text: "多点编辑 - todo", link: "/guide/multiple-cursors"},
+                {text: "多点编辑", link: "/guide/multiple-cursors"},
                 {text: "拆分屏幕", link: "/guide/split-screen"},
                 {text: "带映射的 Vi 模式", link: "/guide/vi-mode-with-mappings"},
                 {text: "PHP 文件使用 Xdebug", link: "/guide/xdebug-for-signal-php-file"},
