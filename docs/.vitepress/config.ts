@@ -54,7 +54,7 @@ function sidebarGuide() {
                 {text: "快速组合 - todo", link: "/guide/fast-composition"},
                 {text: "导航到符号 - todo", link: "/guide/navigate-to-symbol"},
                 {text: "多点编辑 - todo", link: "/guide/multiple-cursors"},
-                {text: "窗口分割 - todo", link: "/guide/window-splits"},
+                {text: "拆分屏幕", link: "/guide/split-screen"},
                 {text: "带映射的 Vi 模式", link: "/guide/vi-mode-with-mappings"},
                 {text: "PHP 文件使用 Xdebug", link: "/guide/xdebug-for-signal-php-file"},
                 {text: "Laravel 项目中使用 Xdebug - todo", link: "/guide/xdebug-for-laravel"},
