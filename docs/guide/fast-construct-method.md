@@ -5,9 +5,10 @@
 1. 输入 `public function __construct()`
 2. 在构造函数中注入依赖的类
 3. 导入类命名空间（优化）
-   ::: details 点击展示或隐藏gif演示图
-   ![](./images/fast-construct-method/normal-create-construct-steps.gif)
-   :::
+
+::: details 点击展示或隐藏gif演示图
+![](./images/fast-construct-method/normal-create-construct-steps.gif)
+:::
 
 ## 添加构造函数
 
