@@ -41,6 +41,7 @@ function sidebarGuide() {
                 {text: "为什么选择 PhpStorm", link: "/guide/what-is-phpstorm"},
                 {text: "下载和安装", link: "/guide/getting-started"},
                 {text: "选择主题", link: "/guide/themes"},
+                {text: "自定义字体", link: "/guide/custom-fonts"},
                 {text: "极简配置", link: "/guide/minimalism.md"},
                 {text: "常用快捷键", link: "/guide/some-important-keybindings"},
                 {text: "快速创建文件", link: "/guide/create-new-files-quickly"},
