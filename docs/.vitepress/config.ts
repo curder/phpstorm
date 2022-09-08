@@ -57,7 +57,7 @@ function sidebarGuide() {
                 {text: "拆分屏幕", link: "/guide/split-screen"},
                 {text: "带映射的 Vi 模式", link: "/guide/vi-mode-with-mappings"},
                 {text: "PHP 文件使用 Xdebug", link: "/guide/xdebug-for-signal-php-file"},
-                {text: "Laravel 项目中使用 Xdebug - todo", link: "/guide/xdebug-for-laravel"},
+                {text: "Laravel 项目中使用 Xdebug", link: "/guide/xdebug-for-laravel"},
                 {text: "Composer 依赖", link: "/guide/composer-dependencies"},
                 {text: "PHPUnit 单元测试", link: "/guide/testing-laravel-using-phpunit"},
                 {text: "自动 PSR-4 命名空间", link: "/guide/automatic-psr-4-namespacing"},
