@@ -46,7 +46,7 @@ function sidebarGuide() {
                 {text: "快速创建文件", link: "/guide/create-new-files-quickly"},
                 {text: "自定义文件模版", link: "/guide/custom-file-templates"},
                 {text: "代码片段", link: "/guide/live-templates"},
-                {text: "自定义代码风格 - todo", link: "/guide/custom-formatting"},
+                {text: "自定义代码风格", link: "/guide/custom-formatting"},
                 {text: "重构变量", link: "/guide/refactoring-for-introduce-variable"},
                 {text: "重构方法", link: "/guide/refactoring-for-introduce-method"},
                 {text: "重构父子类方法转移", link: "/guide/refactoring-for-pull-members-up"},
@@ -62,7 +62,6 @@ function sidebarGuide() {
                 {text: "PHPUnit 单元测试", link: "/guide/testing-laravel-using-phpunit"},
                 {text: "自动 PSR-4 命名空间", link: "/guide/automatic-psr-4-namespacing"},
                 {text: "PSR-12 代码风格", link: "/guide/php-cs-fixer-processing-code-style"},
-                {text: "搜索结果使用自定义范围 - TODO", link: "/guide/better-search-results-with-custom-scopes"}
             ]
         }
     ];
