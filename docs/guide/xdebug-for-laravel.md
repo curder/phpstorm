@@ -2,7 +2,7 @@
 
 PhpStorm 内置 Debug 调试支持 Xdebug 和 Zend Debugger，下面演示在 PhpStorm 中配合本地 PHP 开发环境使用 Xdebug 调试 Laravel 项目的流程。
 
-一些相关网站：
+一些相关网址：
 
 - [Laravel](https://laravel.com/docs)
 - [Xdebug](https://xdebug.org/)
@@ -12,6 +12,7 @@ PhpStorm 内置 Debug 调试支持 Xdebug 和 Zend Debugger，下面演示在 Ph
       Or [Xdebug-ext](https://addons.mozilla.org/en-US/firefox/addon/xdebug-ext-quantum/)
     - [Safari](https://apps.apple.com/app/safari-xdebug-toggle/id1437227804?mt=12)
     - [Edge](https://microsoftedge.microsoft.com/addons/detail/xdebug-helper/ggnngifabofaddiejjeagbaebkejomen)
+- [YouTube - Debugging With PhpStorm And Xdebug | Christoph Rumpel | phpday 2021](https://youtu.be/MFAfbNx4apA)
 
 ## 预配置
 
