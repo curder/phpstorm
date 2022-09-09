@@ -4,7 +4,7 @@
 
 ## 编程字体推荐
 
-如果您觉得不好看或者想换一换字体，下面推荐几款常用字体（排序不分先后）：
+如果觉得 PhpStorm 默认提供的 JetBrains Mono 不好看或者想换一换字体，下面推荐几款常用字体（排序不分先后）：
 
 - [Operator Mono](https://github.com/beichensky/Font) 收费
 - [Ubuntu Mono](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/UbuntuMono/readme.md)
