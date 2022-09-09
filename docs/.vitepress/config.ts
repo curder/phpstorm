@@ -66,6 +66,7 @@ function sidebarGuide() {
                 {text: "Pest 单元测试", link: "/guide/testing-laravel-using-pest"},
                 {text: "Git 工作流 - todo", link: "/guide/use-process-of-git-version-control"},
                 {text: "数据库和 SQL", link: "/guide/database"},
+                {text: "Docker 和 Docker Compose", link: "/guide/docker-and-docker-compose"},
             ]
         }
     ];
