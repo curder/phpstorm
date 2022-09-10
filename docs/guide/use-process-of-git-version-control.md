@@ -2,7 +2,7 @@
 
 PhpStorm 集成了 Git、SVN 等版本管理工具，可以快速预览提交历史、提交版本、合并冲突等等。
 
-来到 PhpStorm 的欢迎页面，在 `Projects` 有一个 `Get from VCS` 选项提供：
+当来到 PhpStorm 的欢迎页面，在 `Projects` 有一个 `Get from VCS` 选项提供：
 
 ![](./images/use-process-of-git-version-control/get-from-vcs.png)
 
@@ -17,6 +17,10 @@ PhpStorm 集成了 Git、SVN 等版本管理工具，可以快速预览提交历
 登录成功后可以选择对应仓库和本地存储地址，则会将代码拉取到本地。
 
 ![](./images/use-process-of-git-version-control/clone-github-repository.png)
+
+下面以 Git 作为项目版本控制作为讲解，常用的 Git 相关的操作可以使用 `Ctrl + V` 后在弹出的窗口选择对应操作。
+
+![](./images/use-process-of-git-version-control/vcs-options.png)
 
 ## 查看提交历史
 
@@ -80,19 +84,78 @@ PhpStorm 的查看工作区文件变更情况远不止查看文件变更历史�
 
 ![](./images/use-process-of-git-version-control/reset-current-branch-to-some-step.png)
 
-还有另一种情况就是当我们回退版本后发现回退错了，还是应该将版本库切换到回退前的状态。当前建议使用 `git reflog` 查看版本库历史记录信息，并复制 hash 值。
+还有另一种情况就是当我们回退版本后发现回退错了，还是应该将版本库切换到回退前的状态。当前建议使用 `git reflog`
+查看版本库历史记录信息，并复制 hash 值。
 
 然后来到主菜单的 `Git` -> `Reset Head...`，将上面执行的命令获取的hash值提取到粘贴到弹出层即可回退到指定版本。
 
 ## 分支操作
 
-新建本地分支
+### 新建本地分支
 
-删除本地分支
+当需要新建一个本地分支时，可以使用 `git branch 分支名` 来通过档期啊你分支，新建一个新分支。
 
-编辑分支名称
+在 PhpStorm 中可以通过在主菜单，选择 `Git` -> 点击 `New Branch...` 通过当前分支，创建一个新分支，并且默认情况下会将当前工作区自动切换到新分支上。
 
-分支合并操作
+![](./images/use-process-of-git-version-control/create-new-branch-from-main-menu.png)
+
+或者通过快捷键 `Ctrl + V` 呼出 VSC 操作项。
+
+![](./images/use-process-of-git-version-control/create-new-branch-from-keymap.png)
+
+接着点击 `Create new branch...`
+
+![](./images/use-process-of-git-version-control/create-new-branch.png)
+
+然后命名一个新分支即可。
+
+![](./images/use-process-of-git-version-control/create-new-branch-add-branch-name.png)
+
+### 删除本地分支
+
+当需要删除对应分支时，可以使用命令 `git branch -d 待删除的分支名` 来删除不需要的本地分支。
+
+在 PhpStorm 中可以通过主菜单上的 `Git` -> 选择 `Branches...`
+
+![](./images/use-process-of-git-version-control/branchs-list-panel.png)
+
+或者通过快捷键 `Ctrl + V` 呼出 VSC 操作项，接着选择 `Branches...`，在接下来的弹窗选择对应分支，再选中 `Delete` 操作。
+
+![](./images/use-process-of-git-version-control/delete-a-local-branch.png)
+
+::: tip 温馨提示
+删除的分支不能是当前所在分支
+:::
+
+### 编辑分支名称
+
+当需要修改对应分支名称时，可以使用命令 `git branch -m 旧分支 新分支` 修改分支名称。
+
+在 PhpStorm 中可以通过主菜单上的 `Git` -> 选择 `Branches...`
+
+![](./images/use-process-of-git-version-control/branchs-list-panel-for-rename.png)
+
+或者通过快捷键 `Ctrl + V` 呼出 VSC 操作项，接着选择 `Branches...`，在接下来的弹窗选择对应分支，再选中 `Rename` 操作。
+
+![](./images/use-process-of-git-version-control/rename-a-local-branch.png)
+
+在接下来的弹出层中输入修改后的分支名，然后点击 Rename 确认修改
+
+![](./images/use-process-of-git-version-control/submit-rename-a-local-branch.png)
+
+### 分支合并操作
+
+当需要合并另一个分支变更操作时，可以使用命令 `git merge 待合并的分支名` 来合并另一个分支。
+
+在 PhpStorm 中可以通过主菜单上的 `Git` -> 选择 `Branches...`
+
+![](./images/use-process-of-git-version-control/merge-another-local-branch.png)
+
+或者通过快捷键 `Ctrl + V` 呼出 VSC 操作项，接着选择 `Branches...`，在接下来的弹窗选择对应分支，再选中 `Merge ... into ...` 操作。
+
+![](./images/use-process-of-git-version-control/merge-another-local-branch-submit.png)
+
+
 
 ## 标签管理
 
