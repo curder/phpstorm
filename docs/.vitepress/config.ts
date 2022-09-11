@@ -65,8 +65,8 @@ function sidebarGuide() {
                 {text: "PHPUnit 单元测试", link: "/guide/testing-laravel-using-phpunit"},
                 {text: "Pest 单元测试", link: "/guide/testing-laravel-using-pest"},
                 {text: "Git 工作流", link: "/guide/use-process-of-git-version-control"},
-                {text: "数据库和 SQL - todo", link: "/guide/database"},
-                {text: "Docker 和 Docker Compose", link: "/guide/docker-and-docker-compose"},
+                {text: "数据库和 SQL", link: "/guide/database"},
+                {text: "Docker 和 Docker Compose - todo", link: "/guide/docker-and-docker-compose"},
                 {text: "Vagrant", link: "/guide/vagrant"},
                 {text: "Deployment", link: "/guide/deployment"},
             ]
