@@ -1,8 +1,8 @@
 # 为什么选择 PhpStorm
 
-PhpStorm 是 jetbrains 公司提供的一款强大的 PHP IDE工具。
+[PhpStorm](https://www.jetbrains.com/phpstorm/) 是 [jetbrains](https://www.jetbrains.com) 公司提供的一款强大的 PHP IDE 工具。
 
-它支持智能编码辅助、代码质量分析、代码导航和搜索、调试、测试和分析、HTML/CSS/JavaScript 编辑器、集成Git/SVN等版本管理工具、数据库和 SQL、以及容器技术 Docker、Docker Compose、Vagrant等。
+它支持智能编码辅助、代码质量分析、代码导航和搜索、调试、测试和分析、HTML/CSS/JavaScript 编辑器、集成 `Git` / `SVN` 等版本管理工具、数据库 和 SQL、以及容器技术 `Docker` / `Docker Compose`、`Vagrant` 等。
 
 以下是来自官网对 PhpStorm 的介绍。
 
@@ -40,14 +40,14 @@ IDE能够理解您的想要到 的地方并且立刻转跳到该位置。
 
 ## 快速安全地重构
 
-使用安全的Rename、Move、Delete、Extract Method、Inline Variable、Push members Up/Pull members Down、Change Signature和许多其他重构可靠地重构您的代码。 
+使用安全的 `Rename`、`Move`、`Delete`、`Extract Method`、`Inline Variable`、`Push members Up/Pull members Down`、`Change Signature` 和许多其他重构可靠地重构代码。 
 
-语言特定的重构让您只需点击数下即可执行项目级变更，并且可以安全地撤消此操作。
+语言特定的重构只需点击数下即可执行项目级变更，并且可以安全地撤消此操作。
 
 ## 轻松调试和测试
 
-PhpStorm以其零配置可视化调试器而闻名，让您能够全面洞察应用程序中每一步的情况。 
+PhpStorm 以其零配置可视化调试器而闻名，让您能够全面洞察应用程序中每一步的情况。 
 
-它可与Xdebug和Zend Debugger搭配使用，支持远程或本地使用。
+它可与 `Xdebug` 和 `Zend Debugger` 搭配使用，支持远程或本地使用。
 
-还可以通过PHPUnit进行单元测试，通过Behat进行BDD，还提供集成的分析器。
+还可以通过 `PHPUnit` 进行单元测试，通过 `Behat` 进行 `BDD`，还提供集成的分析器。
