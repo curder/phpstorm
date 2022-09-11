@@ -68,7 +68,7 @@ PhpStorm 内置支持了市面上常见的数据库连接和管理，比如：My
 
 ![](./images/database/create-new-ssh-configuration-submit.png)
 
-至此，数据库的连接已经正常，接下来就是一些数据库的一些基本操作，比如增删改查、导入导出、用户授权等
+至此，数据库的连接已经正常，接下来就是一些数据库的一些基本操作，比如表的增删改查和数据库的导入导出等
 
 ## 增删改查
 
@@ -101,9 +101,10 @@ PhpStorm 内置支持了市面上常见的数据库连接和管理，比如：My
 在主编辑器视图上点击对应行数据的具体列进行修改，就像修改 `Excel` 单元格的数据一样，提供字段的新值到对应的字段即可。
 
 ::: tip 注意
+
 1. 如果不想应用变更，可以点击 `Revert Selected` 来恢复变更前的记录
-2. 修改后如果想预览具体要执行的数据 SQL 语句，可以点击 `Preview pending changes` 查看 SQL 
-3. 修改完毕后需要点击顶部操作栏的 `Submit` (快捷键 `Command + Enter`) 对变更进行保存。 
+2. 修改后如果想预览具体要执行的数据 SQL 语句，可以点击 `Preview pending changes` 查看 SQL
+3. 修改完毕后需要点击顶部操作栏的 `Submit` (快捷键 `Command + Enter`) 对变更进行保存。
 
 ![](./images/database/revert-selected-preview-or-submit-changes.png)
 
@@ -115,6 +116,7 @@ PhpStorm 内置支持了市面上常见的数据库连接和管理，比如：My
 点击选中的行，使用快捷键 `Delete` 删除对应行，并点击 `Submit` 保存删除变更。
 
 ::: tip 注意
+
 1. 如果不想应用变更，可以点击 `Revert Selected` 来恢复变更前的记录
 2. 修改后如果想预览具体要执行的数据 SQL 语句，可以点击 `Preview pending changes` 查看 SQL
 3. 修改完毕后需要点击顶部操作栏的 `Submit` (快捷键 `Command + Enter`) 对变更进行保存。
@@ -126,7 +128,9 @@ PhpStorm 内置支持了市面上常见的数据库连接和管理，比如：My
 
 PhpStorm 支持数据库、表结构级别的导入导出。实际开发中，使用数据库的导入导出会比较常见。
 
-### 导入
+1. 选中要导入或导出的数据库，右键点击
+2. 在弹出窗口中选择 `Import/Export`
+3. 可选择使用 `mysqlbin` 导出 或者使用 SQL 文件导入
 
-### 导出
+![](./images/database/import-or-export.png)
 
