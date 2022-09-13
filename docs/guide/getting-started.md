@@ -1,5 +1,9 @@
 # 下载和安装
 
+::: tip 温馨提示
+下载 PhpStorm 之前默认您已在本地安装好 PHP 解释器。
+:::
+
 ## 下载
 
 有两种下载方式：一种是在官网直接下载安装包，一种安装并使用 JetBrains Toolbox 下载。
@@ -32,7 +36,7 @@ PhpStorm 是跨平台的编辑器软件，来到 [官方下载地址](https://ww
 ![](./images/getting-started/phpstorm-should-login-start-trial.png)
 
 
-登录账号后，提供我们需要购买授权，如果当前没有授权，可以选择 `Start trial` 试用 30 天。
+登录账号后，提示需要购买授权，如果当前没有授权，可以选择 `Start trial` 试用 30 天。
 
 ![](./images/getting-started/phpstorm-select-start-trial-license.png)
 
@@ -40,7 +44,7 @@ PhpStorm 是跨平台的编辑器软件，来到 [官方下载地址](https://ww
 
 ![](./images/getting-started/phpstorm-confirm-trial-license.png)
 
-修改完毕后，点击 continue 就可以接下来的配置了。
+修改完毕后，点击 `Continue` 就可以进入到编辑器。
 
 ## 使用 JetBrains Toolbox
 
