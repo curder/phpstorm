@@ -1,6 +1,6 @@
 # 选择主题
 
-编辑器默认自带的主题是 `Darcula`，如果你不喜欢或者想换一种配色风格，最快速的方式是下载主题插件解决，也可以导入网上别人贡献的主题配色。
+编辑器默认自带的主题是 `Darcula`，如果不喜欢或者想换一种配色风格，最快速的方式是下载主题插件解决，也可以导入别人贡献的主题配色。
 
 下面以安装 [Material Theme UI](https://plugins.jetbrains.com/plugin/8006-material-theme-ui) 主题、[Atom One Theme](https://plugins.jetbrains.com/plugin/14799-atom-one-theme) 和导入自定义主题配色为例，列举主题的安装和启用流程。
 
@@ -10,7 +10,7 @@
 
 Material Theme UI 提供了较多风格的主题配色供用户选择，可以方便的切换，但是一些高级配置功能需要购买订阅。
 
-下面介绍一下它的安装和使用：
+下面介绍一下它的安装和启用：
 
 ### 安装
 
