@@ -70,6 +70,7 @@ function sidebarGuide() {
                 {text: "Docker 和 Docker Compose", link: "/guide/docker-and-docker-compose"},
                 {text: "Vagrant", link: "/guide/vagrant"},
                 {text: "Deployment", link: "/guide/deployment"},
+                {text: "卸载", link: "/guide/uninstall"},
             ]
         }
     ];
