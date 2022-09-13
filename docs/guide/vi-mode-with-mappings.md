@@ -1,18 +1,8 @@
 # 带映射的 Vi 模式
 
-如果之前使用过其它代码编辑器，比如 `VS Code`、`Eclipse`、`Sublime Text` 等等，并且已经习惯那一套快捷键，可以在 PhpStorm
-的插件市场安装对应的快捷键映射方案：
-
-::: details 点击展示或隐藏截图
-
-1. 进入到 PhpStorm 系统偏好设置(使用快捷键 `Command + ,`)
-2. 选择 `Plugins` -> `Marketplace` -> 搜索 `keymap` 关键字，选择需要映射的编辑器快捷键
-   ![](./images/vi-mode-with-mappings/search-some-keymap-in-marketplace.png)
-   :::
-
 ## 安装 IdeaVim
 
-如果同时是 `Vim` 重度爱好者，或者想要体验在 PhpStorm 使用 `vim`
+如果您是 `Vim` 重度爱好者，或者想要体验在 PhpStorm 使用 `vim`
 编辑器中，可以通过在插件市场安装 [`IdeaVim`](https://plugins.jetbrains.com/plugin/164-ideavim) 插件：
 
 1. 进入到 PhpStorm 系统偏好设置(使用快捷键 `Command + ,`)
