@@ -22,7 +22,18 @@ export default defineConfig({
         sidebar: {
             "/guide": sidebarGuide(),
         }
-    }
+    },
+    head: [
+        [
+            'script',
+            { 'async': true, 'src': 'https://www.googletagmanager.com/gtag/js?id=G-5R2FD5K' }
+        ],
+        [
+            'script',
+            {},
+            "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-5R2FD5K');"
+        ]
+    ],
 });
 
 function nav() {
