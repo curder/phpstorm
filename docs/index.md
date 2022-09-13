@@ -16,3 +16,4 @@ PhpStorm 支持不同操作和进程的多线程处理，使其可以使用的 C
 
 - [PhpStorm 官方站点](https://www.jetbrains.com/phpstorm/)
 - [PhpStorm 官方文档](https://www.jetbrains.com/help/phpstorm/getting-started.html)
+- [Laracasts Video - How to be awesome in PhpStorm](https://laracasts.com/series/how-to-be-awesome-in-phpstorm)
