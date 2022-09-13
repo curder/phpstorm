@@ -74,4 +74,6 @@ $user.var_dump # 按tab会自动补全为 var_dump($user);
 $isset.isset # 按tab就会自动补全为if (isset($isset)) 条件判断
 ```
 
-
+::: tip 更多快捷键操作参考
+选择主菜单上的 `Help` -> `Keyboard Shortcuts PDF` 打开快捷键操作PDF文件预览
+:::
