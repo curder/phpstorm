@@ -10,14 +10,6 @@
 
 下面以在 Mac 系统上安装举例，当前安装的 PhpStorm 版本为：**2022.2.1**。
 
-两种方式都能正常安装上 PhpStorm，区别在于：
-
-1. 两种方式安装到系统的位置不同
-   1. 直接下载并安装的方式软件被安装到了 `/Applicaitons/PhpStorm.app`
-   2. 使用 Toolbox 安装方式软件被安装到了 `/Users/COMPUTER_USERNAME/Applicaitons/JetBrains Toolbox/PhpStorm.app`
-2. 直接下载并安装的 PhpStorm 不能自动更新，使用 Toolbox 可以方便的进行软件的更新
-3. 使用 Toolbox 需要登录后才能下载并管理 PhpStorm
-
 
 ## 直接下载并安装
 
@@ -30,6 +22,11 @@ PhpStorm 是跨平台的编辑器软件，来到 [官方下载地址](https://ww
 将 `PhpStorm.app` 拖拽到右边的 **Applications** 文件夹里。
 
 拖拽完成之后，来到电脑的启动台中找到 PhpStorm 编辑器图标，单击打开它。
+
+初次打开 PhpStorm 弹出提示，是否需要导入设置，由于是第一次使用，这里选择 `Do not import settings`。
+
+![](./images/getting-started/import-phpstorm-settings.png)
+
 
 来到授权页面会提示需要登录账号才能使用。可以到[这里登录](https://account.jetbrains.com/login)。
 
