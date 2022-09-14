@@ -3,8 +3,8 @@ import {defineConfig} from 'vitepress'
 export default defineConfig({
     lang: "zh-CN",
     base: "/phpstorm/",
-    title: "PhpStorm 简单使用",
-    description: "PhpStorm 简单使用",
+    title: "PhpStorm Skill",
+    description: "PhpStorm Skill, Jetbrains, Editor",
     lastUpdated: true,
     themeConfig: {
         // logo: "https://www.apple.com.cn/autopush/ww/search/modules/finalcutpro/image__do2eec8w8n42_large_2x.jpg",
