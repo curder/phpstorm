@@ -6,11 +6,18 @@ export default defineConfig({
     title: "PhpStorm Skill",
     description: "PhpStorm Skill, Jetbrains, Editor",
     lastUpdated: true,
+    markdown: {
+        lineNumbers: true
+    },
     themeConfig: {
         // logo: "https://www.apple.com.cn/autopush/ww/search/modules/finalcutpro/image__do2eec8w8n42_large_2x.jpg",
         siteTitle: "PhpStorm",
         outlineTitle: "章节导航",
         lastUpdatedText: "最后更新时间",
+        docFooter: {
+            prev: "上一篇",
+            next: "下一篇",
+        },
         editLink: {
             pattern: "https://github.com/curder/phpstorm/edit/master/docs/:path",
             text: '编辑它'
