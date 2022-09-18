@@ -4,11 +4,13 @@
 
 以下以 **macOS** 快捷键配置做演示，比如：
 
+- 切换项目代码：`Command + 1`
 - 查找操作：`Command + Shift + A`
 - 文件查找：`Command + Shift + O`
 - 查看函数或方法定义：`Command + B`
 - 切换文件定义：`Command + E`
 - 查看文件包含属性或方法：`Command + F12`
+
 
 ## 查找操作 `Command + Shift + A`
 
@@ -19,7 +21,7 @@
 对话框的终端，请[参考这里](https://intellij-support.jetbrains.com/hc/en-us/articles/360005137400-Cmd-Shift-A-hotkey-opens-Terminal-with-apropos-search-instead-of-the-Find-Action-dialog)
 > 
 > :::  details 点击切换截图展示与隐藏
-> 1. 打开 `苹果系统菜单` | `系统偏好设置` | `键盘` | `快捷键` | `服务`
+> 1. 打开 `系统菜单` | `系统偏好设置` | `键盘` | `快捷键` | `服务`
 > 2. 禁用或 Search man Page Index in Terminal (or change the shortcut)
      > ![](./images/some-important-keybindings/close-search-man-page-index-in-terminal.png)
      > :::
