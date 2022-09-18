@@ -37,7 +37,7 @@ OK 确认选择。
 
 ### 终端区域
 
-使用快捷键 `Command + ,` 来到 PhpStorm 系统偏好设定，选择 `Editor` -> `Console Font` -> 选择 需要替换的字体，也可以调整字号以及行间距，点击
+使用快捷键 `Command + ,` 来到 PhpStorm 系统偏好设定，选择 `Editor` -> `Color Scheme` -> `Console Font` -> 选择 需要替换的字体，也可以调整字号以及行间距，点击
 OK 确认选择。
 
 ![](./images/custom-fonts/select-a-custom-console-font.png)
