@@ -7,10 +7,10 @@
 如果觉得 PhpStorm 默认提供的 JetBrains Mono 不好看或者想换一换字体，下面推荐几款常用字体（排序不分先后）：
 
 - [Operator Mono](https://github.com/beichensky/Font) 收费
-- [Ubuntu Mono](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/UbuntuMono/readme.md)
+- [Ubuntu Mono](https://fonts.google.com/specimen/Ubuntu+Mono)、[Ubuntu](https://fonts.google.com/specimen/Ubuntu)、[Ubuntu Condensed](https://fonts.google.com/specimen/Ubuntu+Condensed)
 - [Fira Code](https://github.com/beichensky/Font/tree/master/FiraCode)
-- [Source Code Pro](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/SourceCodePro/readme.md)
-- [Robot Mono](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/RobotoMono/readme.md)
+- [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
+- [Robot Mono](https://github.com/googlefonts/RobotoMono)
 
 ## 安装字体
 
