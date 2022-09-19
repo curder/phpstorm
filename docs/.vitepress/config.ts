@@ -71,6 +71,7 @@ function sidebarGuide() {
                 {text: "自定义代码风格", link: "/guide/custom-formatting"},
                 {text: "自动 PSR-4 命名空间", link: "/guide/automatic-psr-4-namespacing"},
                 {text: "PSR-12 代码风格", link: "/guide/php-cs-fixer-processing-code-style"},
+                {text: "Laravel pint", link: "/guide/laravel-pint"},
                 {text: "重构变量", link: "/guide/refactoring-for-introduce-variable"},
                 {text: "重构方法", link: "/guide/refactoring-for-introduce-method"},
                 {text: "重构父子类方法转移", link: "/guide/refactoring-for-pull-members-up"},

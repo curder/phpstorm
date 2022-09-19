@@ -174,6 +174,8 @@ php-cs-fixer 支持将项目配置保存在项目根目录中的 `.php-cs-fixer.
         ->setFinder($finder);
     ```
 
+    > 更多代码风格配置可以查看 [PHP-CS-Fixer配置](https://mlocati.github.io/php-cs-fixer-configurator/)
+
 - 重新配置外部工具来实现批量修正指定目录的代码风格
     在 `Preferences` -> `Tools` -> `External Tools` 界面点击 `+` 新建一个外部工具：
     ::: details 点击切换截图展示与隐藏
