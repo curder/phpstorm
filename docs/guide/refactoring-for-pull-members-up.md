@@ -175,7 +175,7 @@
 
 - 父类 `Controller`
 
-```
+```php
 <?php
 
 namespace App\Http\Controllers;
