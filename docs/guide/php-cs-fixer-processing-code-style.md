@@ -2,81 +2,13 @@
 
 PSR-12 是 [PHP-FIG](https://www.php-fig.org/) 组织为 PHP 制定的编码风格标准。
 
-如果要让 PHP 项目遵循 PSR-12 标准，可以通过 <!--[PHP Code Sniffer](https://packagist.org/packages/squizlabs/php_codesniffer)、-->[PHP-CS-Fixer](https://packagist.org/packages/friendsofphp/php-cs-fixer) 之类的第三方扩展对 PHP 项目代码进行自动检测，可以将这些代码风格检测逻辑放到提交代码到代码仓库的钩子函数中，如果不符合指定编码风格（不限于 PSR-12，还可以是自定义的编码风格等），则拒绝提交代码，这样就可以保证代码仓库中维护的代码都是符合特定编码风格的。
+如果要让 PHP 项目遵循 PSR-12 标准，可以通过 [PHP-CS-Fixer](https://packagist.org/packages/friendsofphp/php-cs-fixer) 这类的第三方扩展对 PHP 项目代码进行自动检测，可以将这些代码风格检测逻辑放到提交代码到代码仓库的钩子函数中，如果不符合指定编码风格（不限于 PSR-12，还可以是自定义的编码风格等），则拒绝提交代码，这样就可以保证代码仓库中维护的代码都是符合特定编码风格的。
 
 在 PhpStorm 中，可以通过集成外部安装的这些代码检查工具非常方便的对代码进行自动检测和修复，从而让最终提交到版本库中的代码都是符合特定代码风格的。
 
-下面以 <!--`phpcs` 作为代码检查工具，-->`php-cs-fixer` 作为代码自动修复工具，将代码风格设置为遵循 PSR-12 标准。
-
-<!--
-## 代码检查工具 phpcs
-
-首选需要下载 `phpcs` 工具，可以在这里进行安装：[squizlabs/PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer#installation)
-
-### 下载 phpcs
-
-建议使用 Composer 命令在全局进行安装：
-
-```bash
-composer global require "squizlabs/php_codesniffer=*"
-```
-
-通过命令获取 `phpcs` 命令的执行路径：
-
-```bash
-which phpcs
-```
-
-![](./images/php-cs-fixer-processing-code-style/which-phpcs-get-bin-path.png)
-
-### 在 PhpStorm 中配置 phpcs
-
-1. 配置 phpcs 路径
-
-    1. 在 PhpStorm 的 `Preferences` -> `PHP` -> `Quality Tools` 配置界面中，目前还没有配置任何 PHP_CodeSniffer 路径：
-    
-        ![](./images/php-cs-fixer-processing-code-style/config-phpcs-integration.png)
-    
-    2. 点击上图的 `...` 新增一个配置，在新增的弹出层输入如下配置：
-        
-        - 1. 新增一个PHP配置 2. 在弹出层的下拉选项选择一个PHP版本 3. 点击 `OK` 确认选择
-        
-            ![](./images/php-cs-fixer-processing-code-style/config-phpcs-path-step1.png)
-
-        - 2. 在新增的PHP配置中将 phpcs 路径提供
-            
-            ![](./images/php-cs-fixer-processing-code-style/config-phpcs-path-step2.png)
-
-        - 3. 点击 OK 保存配置
-
-2. 启用 PHP_CodeSniffer 校验
-
-    PHP_CodeSniffer 的校验默认是关闭的，在 PhpStorm 的 `Preferences` -> `Editor` -> `Inspections` 配置界面中，找到右侧 **PHP** | **Quality Tools** | **PHP_CodeSniffer validation**，并将右侧的 Coding Standard 中选择 PSR12 标准。
-    ![](./images/php-cs-fixer-processing-code-style/enable-phpcs-inspection-use-psr12.png)
-
-3. 检查效果
-
-    例如，有如下文件内容：
-    ```php
-    <?php
-
-    use App\Models\User;
-    use Illuminate\Support\Facades\Route;
-
-    Route::get('/', function () {return view('welcome');});
-    ```
-    代码风格不满足 PSR-12标准，会有如下提示：
-
-    ![](./images/php-cs-fixer-processing-code-style/bad-code-style.png)
-
-经过上面的配置和测试，代码风格的校验已经配置完毕。接下来看下代码自动修复功能如何在 PhpStorm 中集成。
-
--->
-
-
 ## 下载 php-cs-fixer
 
-建议使用 Composer 命令在全局进行安装：
+建议使用 [Composer](https://getcomposer.org/download/) 命令在全局进行安装：
 
 ```bash
 composer global require friendsofphp/php-cs-fixer
