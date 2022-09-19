@@ -20,7 +20,8 @@ $random_num = mt_rand(0, 10);  # 随机数
     1. 将光标悬浮在变量上
     2. 点击主菜单界面选中 `Refactor` -> 并选择 `Refactor This...`
        ![](images/refactoring-for-introduce-variable/introduce-variable-step1.png)
-       :::
+   :::
+
 2. 在随后弹出的选项列表中选择 `Introduce Variable...`
 
    ::: details 点击展示或隐藏演示图
@@ -74,7 +75,7 @@ $random_num = mt_rand(0, $number);  # 随机数
     1. 将光标悬浮在变量 `$number` 上
     2. 点击主菜单界面选中 `Refactor` -> 并选择 `Refactor This...`
        ![](images/refactoring-for-introduce-variable/introduce-free-variable-step1.png)
-       :::
+   :::
 
 2. 在随后弹出的选项列表中选择 `Introduce Variable...`
 
