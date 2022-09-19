@@ -8,6 +8,8 @@ Pint会自动安装所有新的Laravel应用程序，因此可以立即开始使
 
 默认情况下，Pint不需要任何配置，并将通过遵循 Laravel 的编码风格来修复代码风格问题。
 
+> **注意：** Laravel Pint 需要PHP版本最低 8.0
+
 ## 安装 Pint
 
 Pint 包含在 Laravel 框架的最新版本中，因此通常不需要安装。
