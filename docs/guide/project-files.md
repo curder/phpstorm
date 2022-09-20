@@ -1,6 +1,6 @@
 # 项目文件
 
-PhpStorm 支持使用常用的脚手架来创建一个新项目，或者直接打开本地已经存在或远程版本库中的项目文件。
+PhpStorm 支持使用常用的脚手架来创建一个新项目，或者直接打开本地已经存在，也下载下载远程版本库中的项目文件进行开发。
 
 ![](./images/project-files/project-management-types.png)
 
