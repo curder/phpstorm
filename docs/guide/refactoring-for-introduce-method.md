@@ -1,14 +1,12 @@
 # 重构方法
 
-在 PhpStorm 中，可以通过自带的重构功能（Refactor）非常方便地对代码进行重构，从而提升代码复用性。
+在 PhpStorm 中，可以通过重构功能（Refactor）非常方便地对代码进行重构，从而提升代码复用性，下面通过实际代码演示一下方法重构。
 
-下面通过实际代码演示一下方法重构。
+重构方法的目的是将某个代码块重构为一个函数或方法来提高代码的复用性。
 
 ## 重构方法
 
-将某个代码块重构为一个函数或方法来提高复用性。
-
-比如有如下代码，可以发现 `store()` 和 `update()` 方法中有大量重复的代码，可以对其重构，将公用的代码抽取成 `save()` 方法：
+比如有如下代码，可以发现 `store()` 和 `update()` 方法中有大量相同的代码逻辑，可以对其重构，将公用的代码重构成 `save()` 方法：
 
 ```php {14-20,29-35}
 <?php
@@ -52,7 +50,7 @@ class CartsController extends Controller
 }
 ```
 
-具体重构步骤如下：
+具体重构方法的步骤如下：
 
 1. 选中待重构的代码逻辑，在主菜单界面选中 `Refactor` -> `Refactor This...`
    ，或者直接使用快捷键 `Control（或 Ctrl）⌃ + T`
@@ -63,13 +61,13 @@ class CartsController extends Controller
       ![](images/refactoring-for-introduce-method/refactor-introduce-method-step1.png)
       ::: 
 
-2. 在随后弹出的选项列表中选择 `Introduce Variable...`，并确认选择
+2. 在随后弹出的选项列表中选择 `Extract Method...`，并确认选择
 
    ::: details 点击展示或隐藏演示图
    ![](images/refactoring-for-introduce-method/refactor-introduce-method-step2.png)
    :::
 
-3. 可以看到重构的代码逻辑已经被重构到默认提供的 `extracted` 方法中，此时可以通过滚动光标查看重构后的代码逻辑 
+3. 可以看到重构的代码逻辑已经被重构到 PhpStorm 编辑器默认提供的 `extracted` 方法中，此时可以通过滚动光标查看重构后的代码逻辑 
 
    ::: details 点击展示或隐藏演示图
    1. 重构后方法名
