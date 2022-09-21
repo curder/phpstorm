@@ -1,4 +1,4 @@
-# PSR-12 代码风格
+# php-cs-fixer规范代码风格
 
 PSR-12 是 [PHP-FIG](https://www.php-fig.org/) 组织为 PHP 制定的编码风格标准。
 

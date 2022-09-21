@@ -1,4 +1,4 @@
-# Laravel Pint 
+# Pint 规范 Laravel 代码风格
 
 Laravel Pint 是一个针对极简主义的 PHP 代码风格修复程序。
 
