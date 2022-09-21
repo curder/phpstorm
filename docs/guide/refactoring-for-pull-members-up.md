@@ -97,7 +97,7 @@
 
 8. **将 `redirectBackWithErrors` 转移到父类 `Controller`**
 
-    1. 光标停留在待操作的方法上，在主菜单界面选中 `Refactor` -> `Refactor This...`
+    1. 光标停留在类的结构内部或待操作的方法上，在主菜单界面选中 `Refactor` -> `Refactor This...`
        ，或者直接使用快捷键 `Control（或 Ctrl）⌃ + T`
        ，选择 `Pull Members Up...`
 
@@ -141,7 +141,7 @@
                         ->withErrors($validation->messages());
                 }
             }
-            ``` 
+            ```
 
         - 子类 `CartsController`
 
@@ -205,7 +205,7 @@ class Controller extends BaseController
 
 可以执行如下操作：
 
-1. 光标停留在待操作的方法上，在主菜单界面选中 `Refactor` -> `Refactor This...`
+1. 光标停留在类的结构内部或待操作的方法上，在主菜单界面选中 `Refactor` -> `Refactor This...`
    ，或者直接使用快捷键 `Control（或 Ctrl）⌃ + T`
    ，选择 `Pull Members ...`
 
@@ -277,3 +277,5 @@ class Controller extends BaseController
         ```
    :::
 
+
+值得注意的是，由于 PHP 中父类能被多个子类继承，所以父类执行转移方法时候会转移到所有子类。
