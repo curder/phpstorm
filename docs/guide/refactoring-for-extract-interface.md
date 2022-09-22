@@ -2,6 +2,8 @@
 
 PhpStorm 可以将一组实现类似功能的类方法抽象出来构建一个接口。
 
+这一节我们一起来通过类方法抽象出一个接口文件，以及通过接口文件创建一个实现它的类。
+
 想象有一个 `MysqlTaskRepository` 实现类有 `add()` 和 `completed()` 方法，假设在这个基础上将其抽象成接口`TaskRepository`
 ，也就是说 `add`、`completed` 方法抽象出来构建一个 `TaskRepostory` 接口。
 
