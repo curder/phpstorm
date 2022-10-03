@@ -30,3 +30,4 @@ PhpStorm 提供匹配所查找名称的列表，从中可以选择目标名称�
 
 ![](./images/navigate-to-classes-or-files/navigate-to-files-result.png)
 
+以上便是通过类和文件名查找并定位文件，使用这种方式可以在知道类或文件名时快速定位到文件，提高文件打开的效率。
