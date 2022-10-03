@@ -43,7 +43,17 @@ PhpStorm 中提供了各种拆分屏幕的操作，开发者可以从主菜单�
    ![](./images/splite-screen/split-screen-keymap-demo.gif)
    :::    
 
+## 分屏操作
 
+除了上面的打开分屏操作外，常见的分屏操作有：切换上/下一屏，关闭分屏等。
 
+### 切换分屏
 
+当主编辑内容区域打开了多个分屏界面时，在主菜单中选择 `Window` -> `Editor Tabs` -> `Goto Next Splitter` 将光标跳转到下一个分屏窗口。
+或 `Goto Previous Splitter` 将光标跳转到上一个分屏窗口。
 
+或者也可以使用快捷键 `Alt Tab`，可以将光标切换不同的分屏窗口。
+
+### 关闭分屏
+
+使用快捷键 `Command W` 可以将分屏关闭。
