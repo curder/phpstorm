@@ -79,6 +79,7 @@ function sidebarGuide() {
                 {text: "重构接口", link: "/guide/refactoring-for-extract-interface"},
                 {text: "快速编写构造函数", link: "/guide/fast-construct-method"},
                 {text: "导航到属性或方法", link: "/guide/navigate-to-symbol"},
+                {text: "导航到类或文件", link: "/guide/navigate-to-classes-or-files"},
                 {text: "多点编辑", link: "/guide/multiple-cursors"},
                 {text: "拆分屏幕", link: "/guide/split-screen"},
                 {text: "带映射的 Vi 模式", link: "/guide/vi-mode-with-mappings"},
