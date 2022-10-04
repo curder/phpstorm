@@ -1,6 +1,6 @@
 # PHP 文件使用 Xdebug
 
-## xdeug 调试单文件
+## xdebug 调试单文件
 
 假如有如下 PHP 文件：
 
