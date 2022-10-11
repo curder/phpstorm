@@ -32,7 +32,7 @@ PhpStorm 内置 Debug 调试支持 Xdebug 和 Zend Debugger，下面演示在 Ph
     Route::post('/posts', [PostController::class, 'index']);  
   ```
 
-- 仓库文件 `PostsRepository`
+- 控制器 `PostsController`
     ```php
     <?php
 
@@ -57,7 +57,8 @@ PhpStorm 内置 Debug 调试支持 Xdebug 和 Zend Debugger，下面演示在 Ph
         }
     }
     ```
-- 控制器 `PostsController`
+
+- 仓库文件 `PostsRepository`
     ```php
     <?php
 
@@ -283,7 +284,7 @@ PhpStorm 内置 Debug 调试支持 Xdebug 和 Zend Debugger，下面演示在 Ph
 会添加上刚刚配置的信息，值得注意的是： `Use path mapping` 无需勾选。
 ![](./images/xdebug-for-laravel/show-php-servers.png)
 
-再次访问浏览器，可以看到 PhpStorm Debug 调试功能界面一起弹出，此刻可以点击 `Step Over` 或者 `F8` 进入到将逻辑进入到下一行。
+再次访问可以看到 PhpStorm Debug 调试功能界面一起弹出，此刻可以点击 `Step Over` 或者 `F8` 进入到将逻辑进入到下一行。
 ![](./images/xdebug-for-laravel/show-debug-variable.png)
 
 相比于在代码中添加 `dd()` 或者 `var_dump()` 打印变量的方式不同的是，使用 `xdebug` 调试代码能打印更多的变量、调用栈等信息，方便开发者进行分析。
