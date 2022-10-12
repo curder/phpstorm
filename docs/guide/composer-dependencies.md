@@ -1,8 +1,10 @@
 # Composer 依赖
 
-一般使用命令行终端命令创建 Composer 依赖，也可以使用 PhpStorm 编辑带给我们的编辑体验。
+在开发中一般会使用命令行终端命令管理 Composer 依赖，也可以使用 PhpStorm 编辑带给我们的编辑体验。
 
 这里以初始化一个空白的项目为例，简单演示 Composer 在 PhpStorm 编辑器中的使用。
+
+包括 composer 初始化和扩展包的增删改查操作。
 
 ## 下载 Composer
 
