@@ -49,7 +49,7 @@ composer -V
 
 ![](./images/composer-dependencies/install-php-dependencies.png)
 
-可以看到本地生成了 `vendor/` 目录和 `composer.lock` 文件。
+可以看到当前项目生成了 `vendor/` 目录和 `composer.lock` 文件。
 
 ## 添加 Composer 依赖
 
