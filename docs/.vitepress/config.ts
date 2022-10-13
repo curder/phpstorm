@@ -87,6 +87,7 @@ function sidebarGuide() {
                 {text: "Laravel 项目中使用 Xdebug", link: "/guide/xdebug-for-laravel"},
                 {text: "Composer 依赖", link: "/guide/composer-dependencies"},
                 {text: "PHPUnit 单元测试", link: "/guide/testing-laravel-using-phpunit"},
+                {text: "Code Coverage 代码覆盖率", link: "/guide/code-coverage"},
                 {text: "Pest 单元测试", link: "/guide/testing-laravel-using-pest"},
                 {text: "Git 工作流", link: "/guide/use-process-of-git-version-control"},
                 {text: "数据库和 SQL", link: "/guide/database"},
