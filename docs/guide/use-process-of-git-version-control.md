@@ -2,15 +2,35 @@
 
 PhpStorm 集成了 Git、SVN 等版本管理工具，可以快速预览提交历史、提交版本、分支操作、和标签的管理等等。
 
+这里演示 PhpStorm 中使用 Git 的一些流程。
+
+## 启用 Git 版本控制
+
+当打开一个没有版本控制的项目时，可以在顶部主菜单 `VCS` | `Enable Version Control Integration...` 
+
+![](./images/use-process-of-git-version-control/enable-version-control-integration.png)
+
+点击 OK 确认启用版本控制集成。
+
+## 向版本库中添加文件
+
+使用 PhpStorm 新建文件 `index.php` 时，编辑器默认会提示是否需要将新建的文件添加到版本库中
+
+如果需要新增到版本库中可以点击 OK；当然也可以选择不添加，然后在后期需要添加的时候再添加。根据情况选择即可。
+
+![](./images/use-process-of-git-version-control/add-file-to-git.png)
+
+再添加一个 `route.php` 文件并且不添加到 Git 版本库中。
+
 ## 查看本地变更
 
 默认情况下 PhpStorm 将本地变更记录取消了，但是可以通过系统偏好设置重新设置。
 
 使用 Command , 来到 Version Control 相关的设置后选择 Commit，将 `Use non-modal commit interface` 反选后保存即可。
 
-再使用快捷键 Command 9 在查看提交历史面板可以看到本地文件的变更。 
+再使用快捷键 Command 9 在查看提交历史面板可以看到本地文件的变更。
 
-![](./images/use-process-of-git-version-control/git-local-changes.png)
+![](./images/use-process-of-git-version-control/show-git-local-changes.png)
 
 ## 查看提交历史
 
