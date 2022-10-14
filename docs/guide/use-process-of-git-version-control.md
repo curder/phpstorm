@@ -1,26 +1,16 @@
 # Git 工作流
 
-PhpStorm 集成了 Git、SVN 等版本管理工具，可以快速预览提交历史、提交版本、合并冲突等等。
+PhpStorm 集成了 Git、SVN 等版本管理工具，可以快速预览提交历史、提交版本、分支操作、和标签的管理等等。
 
-当来到 PhpStorm 的欢迎页面，在 `Projects` 有一个 `Get from VCS` 选项提供：
+## 查看本地变更
 
-![](./images/use-process-of-git-version-control/get-from-vcs.png)
+默认情况下 PhpStorm 将本地变更记录取消了，但是可以通过系统偏好设置重新设置。
 
-点击进入，可以选择对应版本控制软件、对应仓库URL地址以及本地存储地址。
+使用 Command , 来到 Version Control 相关的设置后选择 Commit，将 `Use non-modal commit interface` 反选后保存即可。
 
-![](./images/use-process-of-git-version-control/get-from-version-control-display.png)
+再使用快捷键 Command 9 在查看提交历史面板可以看到本地文件的变更。 
 
-也同时集成了 GitHub 账户授权登录。
-
-![](./images/use-process-of-git-version-control/log-in-via-github.png)
-
-登录成功后可以选择对应仓库和本地存储地址，则会将代码拉取到本地。
-
-![](./images/use-process-of-git-version-control/clone-github-repository.png)
-
-下面以 Git 作为项目版本控制作为讲解，常用的 Git 相关的操作可以使用 `Ctrl + V` 后在弹出的窗口选择对应操作。
-
-![](./images/use-process-of-git-version-control/vcs-options.png)
+![](./images/use-process-of-git-version-control/git-local-changes.png)
 
 ## 查看提交历史
 
