@@ -137,6 +137,6 @@ PhpStorm 支持数据库、表结构级别的导入导出。实际开发中，�
 
 1. 选中要导入或导出的数据库，右键点击
 2. 在弹出窗口中选择 `Import/Export`
-3. 可选择使用 `mysqlbin` 导出 或者使用 SQL 文件导入
+3. 可选择使用 `mysqldump` 导出
 
 ![](./images/database/import-or-export.png)
