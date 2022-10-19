@@ -116,7 +116,6 @@ PhpStorm 内置支持了市面上常见的数据库连接和管理，比如：`M
 
 ![](./images/database/revert-selected-preview-or-submit-changes.png)
 
-如果不需要保存变更，则选中
 :::
 
 ### 删除
