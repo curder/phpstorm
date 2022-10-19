@@ -1,8 +1,8 @@
 # 数据库和SQL
 
-PhpStorm 内置支持了市面上常见的数据库连接和管理，比如：MySQL、MariaDB、Sqlite、MongoDB、Oracle 等等。
+PhpStorm 内置支持了市面上常见的数据库连接和管理，比如：`MySQL`、`MariaDB`、`Sqlite`、`MongoDB`、`Oracle`等等。
 
-通过使用快捷键 `Command + Shift + a` 输入关键字 `Database`
+通过使用快捷键 `Command + Shift + A` 输入关键字 `Database`
 
 ![](./images/database/show-database-panel-keymap.png)
 
@@ -11,7 +11,7 @@ PhpStorm 内置支持了市面上常见的数据库连接和管理，比如：My
 ![](./images/database/create-new-data-source.png)
 
 1. 选中操作区左侧的 **+** 可以新建一个数据源。
-2. 选中需要连接的数据库类型，比如这里的 MySQL
+2. 选中需要连接的数据库类型，比如这里的 MySQL。
 
 ## 下载对应驱动
 
@@ -68,7 +68,7 @@ PhpStorm 内置支持了市面上常见的数据库连接和管理，比如：My
 
 ![](./images/database/create-new-ssh-configuration-submit.png)
 
-至此，数据库的连接已经正常，接下来就是一些数据库的一些基本操作，比如表的增删改查和数据库的导入导出等
+至此，数据库的连接已经正常，接下来就是一些数据库的一些基本操作，比如表的增删改查和数据库的导入、导出等
 
 ## 增删改查
 
