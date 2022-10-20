@@ -78,7 +78,7 @@ PhpStorm 将打开差异查看器。
 
 ![](./images/deployment/phpstorm-deployment-download-warning.png)
 
-点击 `Yes` 将可以将文件或者目录同步到本地。
+点击 `Yes` 可以将文件或者目录同步到本地。
 
 ::: tip 注意
 下载的文件或者目录需要在配置 `connection` 中的目录下的文件或者目录，配置目录之外的目录将不会追踪文件。
