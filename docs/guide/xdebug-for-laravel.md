@@ -29,7 +29,7 @@ PhpStorm 内置 Debug 调试支持 Xdebug 和 Zend Debugger，下面演示在 Ph
     use Illuminate\Support\Facades\Route;
     use App\Http\Controllers\PostsController;
 
-    Route::post('/posts', [PostController::class, 'index']);  
+    Route::get('/posts', [PostController::class, 'index']);  
   ```
 
 - 控制器 `PostsController`
