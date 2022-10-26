@@ -40,7 +40,7 @@
 
 首先尝试将本地一个文件传递到远程服务器 `CustomLocalFolder`。
 
-使用快捷键 `Command + 1` 打开 `Project` 窗口，右键单击待上传的文件。当前使用 `README.md` 文件。
+使用编辑器打开项目目录 `/Users/curder/codes/phpstorm` 尝试将项目的 `README.md` 文件上传到远程服务器。
 
 从上下文菜单中，选择 `Upload to CustomLocalFolder`
 
