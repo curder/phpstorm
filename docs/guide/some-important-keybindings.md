@@ -70,10 +70,10 @@ $name = 'Curder';
 $bool = true;
 $user = ['name' => $name, 'hobbies' => ['coding', 'music']];
 
-$name.echo # 按tab就会自动补全为 echo $name;
-$bool.if # 按tab就会自动补全为 if 条件判断
-$user.var_dump # 按tab会自动补全为 var_dump($user);
-$isset.isset # 按tab就会自动补全为if (isset($isset)) 条件判断
+$name.echo # 按tab就会自动补全为 echo $name; // [!code focus]
+$bool.if # 按tab就会自动补全为 if 条件判断 // [!code focus]
+$user.var_dump # 按tab会自动补全为 var_dump($user); // [!code focus]
+$isset.isset # 按tab就会自动补全为if (isset($isset)) 条件判断 // [!code focus]
 ```
 
 ::: tip 更多快捷键操作参考

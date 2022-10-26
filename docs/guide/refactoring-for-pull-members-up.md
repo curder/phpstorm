@@ -115,7 +115,7 @@
 
        ::: details 点击展示或隐藏源代码
         - 父类 `Controller`
-            ```php {15-24}
+            ```php
             <?php
             
             namespace App\Http\Controllers;
@@ -130,7 +130,7 @@
             {
                 use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
             
-                /**
+                /**  //  [!code focus:10]
                  * @param $validation
                  * @return \Illuminate\Http\RedirectResponse
                  */
@@ -157,13 +157,13 @@
                 public function store()
                 {
                     // Some logic...
-                    return $this->redirectBackWithErrors($validation);
+                    return $this->redirectBackWithErrors($validation); // [!code focus]
                 }
             
                 public function update()
                 {
                     // Some logic...
-                    return $this->redirectBackWithErrors($validation);
+                    return $this->redirectBackWithErrors($validation); // [!code focus]
                 }
             }
             ```
@@ -190,7 +190,7 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
-    /**
+    /** // [!code focus:10]
      * @param $validation
      * @return \Illuminate\Http\RedirectResponse
      */
@@ -242,7 +242,7 @@ class Controller extends BaseController
 
     - 子类 `CartsController`
 
-        ```php {20-30}
+        ```php
         <?php
         
         namespace App\Http\Controllers;
@@ -263,7 +263,7 @@ class Controller extends BaseController
                 return $this->redirectBackWithErrors($validation);
             }          
       
-            /**
+            /** // [!code focus:10]
              * @param $validation
              * @return \Illuminate\Http\RedirectResponse
              */

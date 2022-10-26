@@ -69,7 +69,7 @@ which php-cs-fixer
 use App\Models\User;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {return view('welcome');});
+Route::get('/', function () {return view('welcome');}); // [!code focus]
 ```
 
 代码下面出现波浪线，这意味着 `PHP CS Fixer` 检查到不符合系统设置编码风格的代码（当前为PSR-12），将光标移动到出现问题的代码位置处，使用快捷键 `Option（或 Alt）⌥ + Enter`，弹出快捷修复弹出层，选择 `PHP CS Fixer: fix the whole file`后回车确认
