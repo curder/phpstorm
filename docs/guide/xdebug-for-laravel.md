@@ -93,7 +93,7 @@ PhpStorm 内置 Debug 调试支持 Xdebug 和 Zend Debugger，下面演示在 Ph
 
        通过 `php --ini`命令在输出中定位到 xdebug 配置文件路径或者直接将下面的配置放到 `php.ini` 配置中。
        ```php
-       [opcache]
+       [xdebug]
        ;extension_dir=/opt/homebrew/lib/php/pecl/20210902
        zend_extension="xdebug.so"
        xdebug.mode=debug
