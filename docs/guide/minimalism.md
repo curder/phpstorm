@@ -227,7 +227,7 @@
     ![](./images/minimalism/whitespace-keymap.png)
     :::
 
-## 右侧分割线 right margin
+## 右侧分割线 Show right margin
 
 默认编辑器右侧有一条竖线分割代码和右侧边栏，如下：
 
