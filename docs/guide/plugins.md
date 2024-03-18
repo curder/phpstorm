@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # 插件管理
 
 PhpStorm 除了自带的功能，还可以通过安装第三方插件的方式来扩展编辑器功能。
@@ -60,30 +64,39 @@ PhpStorm 插件安装、卸载管理是在系统偏好设定的 `Plugins` 里。
 
 ## 插件推荐
 
-- [**CamelCase**](https://plugins.jetbrains.com/plugin/7160)
+### [**CamelCase**](https://plugins.jetbrains.com/plugin/7160)
 
-    允许用户通过快捷键 `Alt + Shift + U` 在 `kebab-case`、`SNAKE_CASE`、`PascalCase`、`camelCase`、`snake_case` 或 `space case` 之间轻松切换
+允许用户通过快捷键 `Alt + Shift + U` 在 `kebab-case`、`SNAKE_CASE`、`PascalCase`、`camelCase`、`snake_case` 或 `space case` 之间轻松切换。
 
-- [**Translation**](https://plugins.jetbrains.com/plugin/8579)
+### [**Translation**](https://plugins.jetbrains.com/plugin/8579)
+
+选中单词进行翻译，支持谷歌、有道、阿里巴巴和百度的翻译接口。除了谷歌翻译之外，其它的提供商都需要授权。
+
+插件配置在系统偏好设定的 `Tools` -> `Translation`。注意：在**常规**处的主要语言选择 `中文简体`。
+
+使用方式：1. 选中单词或段使用快捷键 `Command + Ctrl + U` 就可以呼出翻译弹层 2. 选择单词或段后右键点击选择 `Translate`
+
+### [**Chinese (Simplified) Language Pack / 中文语言包**](https://plugins.jetbrains.com/plugin/13710)
+
+下载并安装后，重启 PhpStorm 编辑器外观可以看到支持中文操作界面。
+
+### [**Chinese PHP Document**](https://plugins.jetbrains.com/plugin/12734)
     
-    选中单词进行翻译，支持谷歌、有道、阿里巴巴和百度的翻译接口。除了谷歌翻译之外，其它的提供商都需要授权。
+光标悬浮在 PHP 系统函数上，可以在代码上快速查看其中文文档。
+
+### [**.env files support**](https://plugins.jetbrains.com/plugin/9525)
     
+`.env` 项目环境文件的高亮显示插件
 
-    插件配置在系统偏好设定的 `Tools` -> `Translation`。注意：在**常规**处的主要语言选择 `中文简体`
+### [**CodeGeeX**](https://plugins.jetbrains.com/plugin/20587)
+  
+`CodeGeeX` 是一款基于法学硕士的强大智能编程助手。提供代码生成/补全、注释生成、代码翻译、AI聊天等功能，帮助开发者大幅提升工作效率。
 
+### [Presentation Assistant](https://plugins.jetbrains.com/plugin/11631)
 
-    使用方式：1. 选中单词或段使用快捷键 `Command + Ctrl + U` 就可以呼出翻译弹层 2. 选择单词或段后右键点击选择 `Translate`
+`Presentation Assistant` 插件用于显示调用的操作的名称和键盘快捷键。
 
+::: info **注意：** 新版 PhpStorm 已经集成在编辑器。
 
-- [**Chinese ​(Simplified)​ Language Pack / 中文语言包**](https://plugins.jetbrains.com/plugin/13710)
-
-    下载并安装后，重启 PhpStorm 编辑器外观可以看到支持中文操作界面。
-
-- [**Chinese PHP Document**](https://plugins.jetbrains.com/plugin/12734)
-    
-    光标悬浮在 PHP 系统函数上，可以在代码上快速查看其中文文档。
-
-
-- [**.env files support**](https://plugins.jetbrains.com/plugin/9525)
-    
-    `.env` 文件的高亮显示插件
+在编辑器在主菜单中，转到查看| 外观并启用 `Presentation Assistant`，更多使用详情可以[查看官方文档](https://www.jetbrains.com/help/phpstorm/presentation-assistant.html#configure-the-keymap)。
+:::
