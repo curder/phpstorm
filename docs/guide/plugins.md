@@ -92,6 +92,9 @@ PhpStorm 插件安装、卸载管理是在系统偏好设定的 `Plugins` 里。
   
 `CodeGeeX` 是一款基于法学硕士的强大智能编程助手。提供代码生成/补全、注释生成、代码翻译、AI聊天等功能，帮助开发者大幅提升工作效率。
 
+### [**Laravel Idea**](https://plugins.jetbrains.com/plugin/13441)
+[`Laravel`](https://laravel.com) 框架更有好的语法支持插件。
+
 ### [Presentation Assistant](https://plugins.jetbrains.com/plugin/11631)
 
 `Presentation Assistant` 插件用于显示调用的操作的名称和键盘快捷键。
