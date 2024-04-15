@@ -9,6 +9,7 @@
 - 收费字体
   - [Operator Mono](https://github.com/beichensky/Font)
   - [Dank Mono](https://github.com/notshekhar/Dank-Mono-Font)
+  - [MonoLisa](https://github.com/koprab/monalisa-font)
 - 免费字体 
   - [Ubuntu Mono](https://fonts.google.com/specimen/Ubuntu+Mono)、[Ubuntu](https://fonts.google.com/specimen/Ubuntu)、[Ubuntu Condensed](https://fonts.google.com/specimen/Ubuntu+Condensed)
   - [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
