@@ -12,8 +12,15 @@ export default defineConfig({
     themeConfig: {
         // logo: "https://www.apple.com.cn/autopush/ww/search/modules/finalcutpro/image__do2eec8w8n42_large_2x.jpg",
         siteTitle: "PhpStorm",
-        outlineTitle: "章节导航",
-        lastUpdatedText: "最后更新时间",
+        outline: {
+            label: '章节导航'
+        },
+        lastUpdated: {
+            text: "最后更新时间",
+        },
+        search: {
+            provider: 'local'
+        },
         docFooter: {
             prev: "上一篇",
             next: "下一篇",
