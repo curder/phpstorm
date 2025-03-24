@@ -6,7 +6,7 @@
 
 一个好的开发工具能给开发工作带来效率的提升，熟练的使用开发工具能加速代码的迭代。
 
-PhpStorm 可以使用多种版本的 PHP，比如 `PHP 5.3`、`PHP 5.4`、`PHP 5.5`、`PHP 5.6`、`PHP 7`、`PHP 7.1`、`PHP 7.2`、`PHP 7.3`、`PHP 7.4`、`PHP 8.0`、`PHP 8.1`、`PHP 8.2` 和 `PHP 8.3` 开发应用程序。在[这里查看支持的 PHP 版本](https://www.jetbrains.com/help/phpstorm/supported-php-versions.html)
+PhpStorm 可以使用多种版本的 PHP，比如 `PHP 5.3`、`PHP 5.4`、`PHP 5.5`、`PHP 5.6`、`PHP 7`、`PHP 7.1`、`PHP 7.2`、`PHP 7.3`、`PHP 7.4`、`PHP 8.0`、`PHP 8.1`、`PHP 8.2`、`PHP 8.3`和 `PHP 8.4` 开发应用程序。在[这里查看支持的 PHP 版本](https://www.jetbrains.com/help/phpstorm/supported-php-versions.html)
 
 PhpStorm 是一个跨平台的 IDE，适用于 `Windows`、`macOS` 和 `Linux`。
 
