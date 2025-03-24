@@ -11,11 +11,11 @@ PhpStorm 中提供了各种拆分屏幕的操作，开发者可以从主菜单�
 
 1. 选择 `Split Right` 则会在主屏幕右侧打开一个拆分的窗口,将主屏幕左右一分为二，内容跟拆分前的屏幕内容保持一致，如下截图：
    ::: details 点击展示或隐藏截图
-   ![](./images/splite-screen/split-right-screen.png)
+   ![Split Right Screen](./images/splite-screen/split-right-screen.png)
    :::
 2. 选择 `Split Down` 则会在屏幕主屏幕下方拆分一个窗口，将主屏幕上下一分为二，内容跟拆分前的屏幕内容保持一致，如下截图：
    ::: details 点击展示或隐藏截图
-   ![](./images/splite-screen/split-down-screen.png)
+   ![Split Down Screen](./images/splite-screen/split-down-screen.png)
    :::
 
 ## 设置快捷键
@@ -27,20 +27,20 @@ PhpStorm 中提供了各种拆分屏幕的操作，开发者可以从主菜单�
 3. 选中要添加的快捷键条目，比如这里的 `Split Right`
 4. 右键点击，并在弹出层中选中 `Add Keyboard Shortcut`
    ::: details 点击展示或隐藏截图
-   ![](./images/splite-screen/set-keymap-for-split-step1.png)
+   ![Set Keymap For Split Step1](./images/splite-screen/set-keymap-for-split-step1.png)
    :::
 5. 在弹出层中输入 `Ctrl + Opt + Command + ->` 设置这个快捷键组合
    ::: details 点击展示或隐藏截图
-   ![](./images/splite-screen/set-keymap-for-split-step2.png)
+   ![Set Keymap For Split Step2](./images/splite-screen/set-keymap-for-split-step2.png)
    :::
 6. 添加完成后的截图如下：
    ::: details 点击展示或隐藏截图
-   ![](./images/splite-screen/set-keymap-for-split-step3.png)
+   ![Set Keymap For Split Step3](./images/splite-screen/set-keymap-for-split-step3.png)
    :::
 
 7. 展示快捷键设置效果
    ::: details 点击展示或隐藏截图
-   ![](./images/splite-screen/split-screen-keymap-demo.gif)
+   ![Split Screen Keymap Demo](./images/splite-screen/split-screen-keymap-demo.gif)
    :::
 
 ## 分屏操作

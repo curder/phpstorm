@@ -7,7 +7,7 @@
 3. 导入类命名空间（优化）
 
 ::: details 点击展示或隐藏gif演示图
-![](./images/fast-construct-method/normal-create-construct-steps.gif)
+![Normal Create Construct Steps](./images/fast-construct-method/normal-create-construct-steps.gif)
 :::
 
 ## 添加构造函数
@@ -15,7 +15,7 @@
 使用快捷键 `Command + N` 可以在下拉菜单中选择 `Construct...`（或者直接输入 Construct 进行过滤）
 
 ::: details 点击展示或隐藏gif演示图
-![](./images/fast-construct-method/use-command_n-to-create-cunstruct.gif)
+![Use Command_N To Create Cunstruct](./images/fast-construct-method/use-command_n-to-create-cunstruct.gif)
 :::
 
 ## 自动导入命名空间
@@ -25,11 +25,11 @@
 3. 点击 `OK` 保存变更
 
 ::: details 点击展示或隐藏gif演示图
-![](./images/fast-construct-method/auto-import-namespace.png)
+![Auto Import Namespace](./images/fast-construct-method/auto-import-namespace.png)
 :::
 
 这样就可以在编写类时自动导入命名空间，如下：
 
 ::: details 点击展示或隐藏gif演示图
-![](./images/fast-construct-method/use-auto-import-namspace.gif)
+![Use Auto Import Namspace](./images/fast-construct-method/use-auto-import-namspace.gif)
 :::

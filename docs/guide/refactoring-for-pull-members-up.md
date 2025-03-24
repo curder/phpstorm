@@ -57,42 +57,42 @@
    ，或者直接使用快捷键 `Control（或 Ctrl）⌃ + T`
 
    ::: details 点击展示或隐藏演示图
-   ![](./images/refactoring-for-pull-members-up/refactoring-for-extract-method-step1.png)
+   ![Refactoring For Extract Method Step1](./images/refactoring-for-pull-members-up/refactoring-for-extract-method-step1.png)
    :::
 2. 在下拉列表中选择要重构的类型 `Extract Method...`
 
    ::: details 点击展示或隐藏演示图
-   ![](./images/refactoring-for-pull-members-up/refactoring-for-extract-method-step2.png)
+   ![Refactoring For Extract Method Step2](./images/refactoring-for-pull-members-up/refactoring-for-extract-method-step2.png)
    :::
 
 3. 选择 `Redirect::back()->withInput()->withErrors(...)`
 
    ::: details 点击展示或隐藏演示图
-   ![](./images/refactoring-for-pull-members-up/refactoring-for-extract-method-step3.png)
+   ![Refactoring For Extract Method Step3](./images/refactoring-for-pull-members-up/refactoring-for-extract-method-step3.png)
    :::
 
 4. 回车后看到代码被重构成了方法
 
    ::: details 点击展示或隐藏演示图
-   ![](./images/refactoring-for-pull-members-up/refactoring-for-extract-method-step4.png)
+   ![Refactoring For Extract Method Step4](./images/refactoring-for-pull-members-up/refactoring-for-extract-method-step4.png)
    :::
 
 5. 默认方法名为 `getResposne`，可以改为 `redirectBackWithErrors`
 
    ::: details 点击展示或隐藏演示图
-   ![](./images/refactoring-for-pull-members-up/refactoring-for-extract-method-step5.png)
+   ![Refactoring For Extract Method Step5](./images/refactoring-for-pull-members-up/refactoring-for-extract-method-step5.png)
    :::
 
 6. 如果当前类中重构的代码逻辑有存在相同的逻辑代码，会出现提取方法的确认弹出提示，这里点击 `Yes`，确认需要提取到方法
 
    ::: details 点击展示或隐藏演示图
-   ![](./images/refactoring-for-pull-members-up/refactoring-for-extract-method-step6.png)
+   ![Refactoring For Extract Method Step6](./images/refactoring-for-pull-members-up/refactoring-for-extract-method-step6.png)
    :::
 
 7. 选择 `Replace` 进行替换，可以看到`store` 和 `update` 方法中相同的代码逻辑均提取到了 `redirectBackWithErrors` 方法中
 
    ::: details 点击展示或隐藏演示图
-   ![](./images/refactoring-for-pull-members-up/refactoring-for-extract-method-step7.png)
+   ![Refactoring For Extract Method Step7](./images/refactoring-for-pull-members-up/refactoring-for-extract-method-step7.png)
    :::
 
 8. **将 `redirectBackWithErrors` 转移到父类 `Controller`**
@@ -102,13 +102,13 @@
        ，选择 `Pull Members Up...`
 
        ::: details 点击展示或隐藏演示图
-       ![](./images/refactoring-for-pull-members-up/refactoring-for-extract-method-step8.png)
+       ![Refactoring For Extract Method Step8](./images/refactoring-for-pull-members-up/refactoring-for-extract-method-step8.png)
        :::
 
     2. 在确认弹出层中查看要转移到的父类和要转移的成员方法，如果没有问题可以点击 `Refactor` 确认转移
 
        ::: details 点击展示或隐藏演示图
-       ![](./images/refactoring-for-pull-members-up/refactoring-for-extract-method-step9.png)
+       ![Refactoring For Extract Method Step9](./images/refactoring-for-pull-members-up/refactoring-for-extract-method-step9.png)
        :::
 
     3. 此时可以看到子类的方法 `redirectBackWithErrors` 被转移到父类 `Controller` 中
@@ -210,13 +210,13 @@ class Controller extends BaseController
    ，选择 `Pull Members ...`
 
    ::: details 点击展示或隐藏演示图
-   ![](./images/refactoring-for-pull-members-up/refactoring-for-extract-method-step10.png)
+   ![Refactoring For Extract Method Step10](./images/refactoring-for-pull-members-up/refactoring-for-extract-method-step10.png)
    :::
 
 2. 在确认弹出层中查看要转移到子类的成员方法，如果没有问题可以点击 `Refactor` 确认转移
 
    ::: details 点击展示或隐藏演示图
-   ![](./images/refactoring-for-pull-members-up/refactoring-for-extract-method-step11.png)
+   ![Refactoring For Extract Method Step11](./images/refactoring-for-pull-members-up/refactoring-for-extract-method-step11.png)
    :::
 
 3. 此时可以看到父类的方法 `redirectBackWithErrors` 被转移到**所有继承自它的子类**

@@ -58,13 +58,13 @@ class CartsController extends Controller
    ::: details 点击展示或隐藏演示图
    1. 将待重构的代码逻辑选中
    2. 点击主菜单界面选中 `Refactor` -> 并选择 `Refactor This...`
-      ![](images/refactoring-for-introduce-method/refactor-introduce-method-step1.png)
+      ![Refactor Introduce Method Step1](images/refactoring-for-introduce-method/refactor-introduce-method-step1.png)
       :::
 
 2. 在随后弹出的选项列表中选择 `Extract Method...`，并确认选择
 
    ::: details 点击展示或隐藏演示图
-   ![](images/refactoring-for-introduce-method/refactor-introduce-method-step2.png)
+   ![Refactor Introduce Method Step2](images/refactoring-for-introduce-method/refactor-introduce-method-step2.png)
    :::
 
 3. 可以看到重构的代码逻辑已经被重构到 PhpStorm 编辑器默认提供的 `extracted` 方法中，此时可以通过滚动光标查看重构后的代码逻辑
@@ -72,7 +72,7 @@ class CartsController extends Controller
    ::: details 点击展示或隐藏演示图
    1. 重构后方法名
    2. 重构后代码逻辑
-   ![](images/refactoring-for-introduce-method/refactor-introduce-method-step3.png)
+   ![Refactor Introduce Method Step3](images/refactoring-for-introduce-method/refactor-introduce-method-step3.png)
    :::
 
 4. 可以修改默认的方法，比如这里将方法名修改为 `save`
@@ -80,13 +80,13 @@ class CartsController extends Controller
    ::: details 点击展示或隐藏演示图
    1. 修改为目标方法 `save`
    2. 弹出层提示"PhpStorm 在此文件中检测到 1 个代码片段，可以替换为对提取方法的调用"，这里选择 **Yes** 同时替换另一个代码片段的逻辑
-   ![](images/refactoring-for-introduce-method/refactor-introduce-method-step4.png)
+   ![Refactor Introduce Method Step4](images/refactoring-for-introduce-method/refactor-introduce-method-step4.png)
    :::
 
 5. 弹出提示并且高亮相同片段的代码逻辑
 
    ::: details 点击展示或隐藏演示图
-   ![](images/refactoring-for-introduce-method/refactor-introduce-method-step5.png)
+   ![Refactor Introduce Method Step5](images/refactoring-for-introduce-method/refactor-introduce-method-step5.png)
    :::
 
 6. 自此控制器中 `store` 和 `update` 方法中重复的代码就被重构完毕

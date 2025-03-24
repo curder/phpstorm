@@ -21,7 +21,7 @@ class Person
 
 按住键盘的 `Option（或 Alt）⌥` 配合鼠标左键点击光标，可以多选编辑器代码。
 
-![](./images/multiple-cursors/use-option-and-mouse-left-click.gif)
+![Use Option And Mouse Left Click](./images/multiple-cursors/use-option-and-mouse-left-click.gif)
 
 ## 使用快捷键
 
@@ -29,17 +29,17 @@ class Person
 2. 执行以下操作之一：
     - 连续按 `⌃ + G` 查找并选择下一个匹配大小写匹配的单词或文本范围
 
-      ![](./images/multiple-cursors/select-the-next-occurrence-of-case-sensitively-matching-word-or-text-range.gif)
+      ![Select The Next Occurrence Of Case Sensitively Matching Word Or Text Range](./images/multiple-cursors/select-the-next-occurrence-of-case-sensitively-matching-word-or-text-range.gif)
 
     - 按 `⌃ + ⌘ + G` 选择文档中所有区分大小写匹配的单词或文本范围
 
-      ![](./images/multiple-cursors/select-all-case-sensitively-matching-words-or-text-ranges-in-the-document.gif)
+      ![Select All Case Sensitively Matching Words Or Text Ranges In The Document](./images/multiple-cursors/select-all-case-sensitively-matching-words-or-text-ranges-in-the-document.gif)
 
 3. 要从上次选择的项目中删除选择，按快捷键 `⌃ + ⇧ + G`
 
-   ![](./images/multiple-cursors/remove-section-from-the-last-selected-occurrence.gif)
+   ![Remove Section From The Last Selected Occurrence](./images/multiple-cursors/remove-section-from-the-last-selected-occurrence.gif)
 
 4. 在使用 `⌃ + G` 添加第二个或任何连续选择后，也可以跳过它并使用 `⌘ + G`
    选择下一个匹配项。要将选择返回到最后跳过的匹配项，请按 `⇧ + ⌘ + G`
 
-   ![](./images/multiple-cursors/select-the-next-occurrence-and-return-the-selection-to-the-lastly-skipped-occurrence.gif)
+   ![Select The Next Occurrence And Return The Selection To The Lastly Skipped Occurrence](./images/multiple-cursors/select-the-next-occurrence-and-return-the-selection-to-the-lastly-skipped-occurrence.gif)

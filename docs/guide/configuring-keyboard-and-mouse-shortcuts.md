@@ -15,7 +15,7 @@ PhpStorm 包括几个预定义的键盘映射，基本上能看到的操作都�
 
 1. 进入到 PhpStorm 系统偏好设置(使用快捷键 `Command + ,`)
 2. 选择 `Plugins` -> `Marketplace` -> 搜索 `keymap` 关键字，选择需要映射的编辑器快捷键
-   ![](images/custom-keybindings/search-some-keymap-in-marketplace.png)
+   ![Search Some Keymap In Marketplace](images/custom-keybindings/search-some-keymap-in-marketplace.png)
    :::
 
 ### 启用预设
@@ -23,7 +23,7 @@ PhpStorm 包括几个预定义的键盘映射，基本上能看到的操作都�
 使用快捷键 `⌘ +,` 打开软件偏好设定对话框，然后选中 `Keymap`，在下拉选项中找到符合的快捷键预设
 
 ::: details 点击展示或隐藏截图
-![](./images/custom-keybindings/set-keymap.png)
+![Set Keymap](./images/custom-keybindings/set-keymap.png)
 :::
 
 ## 自定义快捷方式

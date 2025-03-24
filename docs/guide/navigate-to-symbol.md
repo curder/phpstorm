@@ -16,22 +16,22 @@ PhpStorm 提供匹配所查找名称的列表，从中可以选择目标名称�
 - 跳转到类名
 
   ::: details 点击展示或隐藏gif演示图
-  ![](./images/navigate-to-symbol/navigate-to-class-name.gif)
+  ![Navigate To Class Name](./images/navigate-to-symbol/navigate-to-class-name.gif)
   :::
 
 - 跳转到属性
 
   ::: details 点击展示或隐藏gif演示图
-  ![](./images/navigate-to-symbol/navigate-to-class-property.gif)
+  ![Navigate To Class Property](./images/navigate-to-symbol/navigate-to-class-property.gif)
   :::
 
 - 跳转到方法
 
   ::: details 点击展示或隐藏gif演示图
-  ![](./images/navigate-to-symbol/navigate-to-class-method.gif)
+  ![Navigate To Class Method](./images/navigate-to-symbol/navigate-to-class-method.gif)
   :::
 
 - 跳转到css类
   ::: details 点击展示或隐藏gif演示图
-  ![](./images/navigate-to-symbol/navigate-to-css-class.gif)
+  ![Navigate To Css Class](./images/navigate-to-symbol/navigate-to-css-class.gif)
   :::

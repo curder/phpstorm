@@ -10,7 +10,7 @@
 点击 `Add +`，选择其类型（这是 Local or mounted folder），然后在 `Create New Server`
 对话框中，键入服务器名称 `CustomLocalFolder`：
 
-![](./images/deployment/phpstorm-deployment-add-server.png)
+![Phpstorm Deployment Add Server](./images/deployment/phpstorm-deployment-add-server.png)
 
 新服务器已添加，但当前仍然无效，因为它仅显示Web服务器URL `http://localhost`，将在其中实际浏览上传的文件。
 
@@ -19,7 +19,7 @@
 选择将要上传的项目文件目录。在当前示例中是 `/Users/curder/Desktop/codes` 本地文件夹。可以按快捷键 `Shift + Enter`
 打开 `Browser...` 对话框 。
 
-![](./images/deployment/phpstorm-deployment-connection-tab.png)
+![Phpstorm Deployment Connection Tab](./images/deployment/phpstorm-deployment-connection-tab.png)
 
 ### 映射选项 Mappings
 
@@ -30,7 +30,7 @@
 
 - 最后，Web路径使用默认值 `/`
 
-![](./images/deployment/phpstorm-deployment-mappings-tab.png)
+![Phpstorm Deployment Mappings Tab](./images/deployment/phpstorm-deployment-mappings-tab.png)
 
 然后单击确定，应用更改，服务器就可以使用了。
 
@@ -44,15 +44,15 @@
 
 从上下文菜单中，选择 `Upload to CustomLocalFolder`
 
-![](./images/deployment/phpstorm-upload-to-custom-local-folder.png)
+![Phpstorm Upload To Custom Local Folder](./images/deployment/phpstorm-upload-to-custom-local-folder.png)
 
 然后通过顶部主菜单点击 `Tools` -> `Deployment` -> 选择 `Browse Romote Host`，查看上传结果。
 
-![](./images/deployment/phpstorm-browse-remote-host.png)
+![Phpstorm Browse Remote Host](./images/deployment/phpstorm-browse-remote-host.png)
 
 可以看到远程服务器已经存在同步过去的文件
 
-![](./images/deployment/phpstorm-show-upload-result.png)
+![Phpstorm Show Upload Result](./images/deployment/phpstorm-show-upload-result.png)
 
 当然也支持上传文件夹，由于操作类似这边不展开讨论。
 
@@ -60,23 +60,23 @@
 
 `README.md` 文件有本地和远程副本，当前二者文件内容是相同的。此时尝试修改本地文件内容，添加一个 `Hello world!`
 
-![](./images/deployment/phpstorm-deployment-modify-source.png)
+![Phpstorm Deployment Modify Source](./images/deployment/phpstorm-deployment-modify-source.png)
 
 现在由于更改了 `README.md` 本地版本。需要确保 PhpStorm 了解这些更改。
 
 为此，请转到 `Remote Host` 工具窗口，然后单击鼠标右键，从上下文菜单中，选择与本地版本比较。
 
-![](./images/deployment/phpstorm-compare-with-local-version.png)
+![Phpstorm Compare With Local Version](./images/deployment/phpstorm-compare-with-local-version.png)
 
 PhpStorm 将打开差异查看器。
 
-![](./images/deployment/phpstorm-deployment-diff-viewer.png)
+![Phpstorm Deployment Diff Viewer](./images/deployment/phpstorm-deployment-diff-viewer.png)
 
 ### 下载
 
 在 `Remote Host` 工具窗口中，右键单击文件或者目录，然后在上下文菜单中选择 `Download form here`。PhpStorm显示警告：
 
-![](./images/deployment/phpstorm-deployment-download-warning.png)
+![Phpstorm Deployment Download Warning](./images/deployment/phpstorm-deployment-download-warning.png)
 
 点击 `Yes` 可以将文件或者目录同步到本地。
 
@@ -92,7 +92,7 @@ PhpStorm 将打开差异查看器。
 
 单击 `README.md` 文件，然后在主菜单上选择 `Tools` -> `Deployment` -> `Sync with Deployed to CustomLocalFolder`
 
-![](./images/deployment/phpstorm-deployment-sync.png)
+![Phpstorm Deployment Sync](./images/deployment/phpstorm-deployment-sync.png)
 
 可以在PhpStorm 显示差异查看器中接受单个更改或拒绝它们。
 
@@ -111,7 +111,7 @@ PhpStorm 将打开差异查看器。
 1. 在 `Deployment` 页面上选择所需的服务器（在当前的示例中为 `CustomLocalFolder` ）。可以通过两种可能的方式打开此页面：
     - 按 `⌘ + ,` 打开设置/首选项对话框 -> `Build, Execution, Deployment` -> `Deployment`
     - 主菜单选择 `Tools` -> `Deployment` -> `Configuration...`
-      ![](./images/deployment/phpstorm-using-as-default.png)
+      ![Phpstorm Using As Default](./images/deployment/phpstorm-using-as-default.png)
 
 2. 请点击`Using as default` 按钮。
 
@@ -122,7 +122,7 @@ PhpStorm 将打开差异查看器。
 可以通过以下两种方式完成：
 
 - 按 `⌘ + ,` 打开设置/首选项对话框 -> `Build, Execution, Deployment` -> `Deployment`，然后在 `Upload changed files automatically to the default server` 字段中，选择始终、执行保存操作或者从不。
-    ![](./images/deployment/always-upload-changed-files-automatically-to-the-default-server.png)
+    ![Always Upload Changed Files Automatically To The Default Server](./images/deployment/always-upload-changed-files-automatically-to-the-default-server.png)
 - 在主菜单中，选择 `Tools` -> `Deployment` -> `Automatic upload`。
   ::: warning 注意
   请注意，在这种情况下，自动上传是在始终模式下执行的。
@@ -138,7 +138,7 @@ PhpStorm 将打开差异查看器。
 
 若要更改此行为并跳过外部更改，需要将 `Upload changed files automatically to the default server` 设置为 `always`，然后选中 `Skip extrnal changes` 复选框：
 
-![](./images/deployment/phpstorm-deployment-options-external-changes.png)
+![Phpstorm Deployment Options External Changes](./images/deployment/phpstorm-deployment-options-external-changes.png)
 
 ## 总结
 

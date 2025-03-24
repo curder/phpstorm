@@ -9,19 +9,19 @@ PhpStorm 默认内置一些文件模版，要定位到自定义文件模版有�
 2. 或者通过快捷键 `Command + Shift + A` 呼出 `Action` 导航界面，在输入框输入 `file and code templates`，在下拉列表中选中`File and Code Templates`：
 
     ::: details 点击切换截图展示与隐藏
-    ![](./images/custom-file-templates/search-file-and-code-templates.png)
+    ![Search File And Code Templates](./images/custom-file-templates/search-file-and-code-templates.png)
     :::
 
 进入文件代码模板界面，在这里可以看到 PhpStorm 内置支持的所有语言/框架的代码模板：
 
 ::: details 点击切换截图展示与隐藏
-![](./images/custom-file-templates/file-and-code-templates.png)
+![File And Code Templates](./images/custom-file-templates/file-and-code-templates.png)
 :::
 
 这些文件列表模版的内容对应在新建文件时默认的文件内容：
 
 ::: details 点击切换截图展示与隐藏
-![](./images/custom-file-templates/file-and-code-templates-related-nwe-file.png)
+![File And Code Templates Related Nwe File](./images/custom-file-templates/file-and-code-templates-related-nwe-file.png)
 :::
 
 ## 内容简单说明
@@ -42,7 +42,7 @@ class ${NAME} {
 ```
 
 - `#parse("PHP File Header.php")` 引用公共头文件，在 `Includes` 中的 `PHP File Header`定义，如下图所示：
-    ![](./images/custom-file-templates/default-php-file-header.png)
+    ![Default Php File Header](./images/custom-file-templates/default-php-file-header.png)
 - `#if (${NAMESPACE})` 判断是否包含命名空间，如果新建文件时提供了就会在创建文件时添上
 - `${NAME}` 为创建的文件名
 
@@ -51,7 +51,7 @@ class ${NAME} {
 如果编写的模版已经存在可以拷贝一份进行编辑，比如这里给 `PHP Class` 添加上一些作者、时间等信息，如下：
 
 ::: details 点击切换展示与隐藏
-![](./images/custom-file-templates/edit-file-template.png)
+![Edit File Template](./images/custom-file-templates/edit-file-template.png)
 
 ```php
 <?php
@@ -98,4 +98,4 @@ class Test
 
 下面截图以新建一个 Python 文件为例：
 
-![](./images/custom-file-templates/create-new-template-for-py.png)
+![Create New Template For Py](./images/custom-file-templates/create-new-template-for-py.png)

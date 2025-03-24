@@ -22,7 +22,7 @@
 > :::  details 点击切换截图展示与隐藏
 > 1. 打开 `系统菜单` | `系统偏好设置` | `键盘` | `快捷键` | `服务`
 > 2. 禁用或 Search man Page Index in Terminal (or change the shortcut)
-     > ![](./images/some-important-keybindings/close-search-man-page-index-in-terminal.png)
+     > ![Close Search Man Page Index In Terminal](./images/some-important-keybindings/close-search-man-page-index-in-terminal.png)
      > :::
 
 在上一节 **极简配置** 中介绍的对应配置如：标签位置 `Tab placement` 、工具窗口栏 `Tool Window Bars`、行号 `Line Numbers`

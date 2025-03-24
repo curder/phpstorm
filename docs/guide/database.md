@@ -4,11 +4,11 @@ PhpStorm 内置支持了市面上常见的数据库连接和管理，比如：`M
 
 通过使用快捷键 `Command + Shift + A` 输入关键字 `Database`
 
-![](./images/database/show-database-panel-keymap.png)
+![Show Database Panel Keymap](./images/database/show-database-panel-keymap.png)
 
 回车确认选中，一般情况下在右侧就会出现 **Database** 的预览和管理窗口。
 
-![](./images/database/create-new-data-source.png)
+![Create New Data Source](./images/database/create-new-data-source.png)
 
 1. 选中操作区左侧的 **+** 可以新建一个数据源。
 2. 选中需要连接的数据库类型，比如这里的 MySQL。
@@ -19,7 +19,7 @@ PhpStorm 内置支持了市面上常见的数据库连接和管理，比如：`M
 
 下载对应数据库驱动，以 MySQL 驱动为例：
 
-![](./images/database/download-missing-mysql-driver-files.png)
+![Download Missing Mysql Driver Files](./images/database/download-missing-mysql-driver-files.png)
 
 ## 连接数据库
 
@@ -38,7 +38,7 @@ PhpStorm 内置支持了市面上常见的数据库连接和管理，比如：`M
 7. 以上信息配制完毕后，点击 `Test Connection` 可以快速验证连接可用性
 8. 如果可用性没有问题可以点 `OK` 确认保存连接信息
 
-![](./images/database/mysql-general-connection-config.png)
+![Mysql General Connection Config](./images/database/mysql-general-connection-config.png)
 
 ### SSH 连接
 
@@ -50,11 +50,11 @@ PhpStorm 内置支持了市面上常见的数据库连接和管理，比如：`M
 2. 选中 `Use SSH tunnel`
 3. 并点击右侧 `...` 图标，或者使用快捷键 `Shift + Enter` 新建一个SSH连接配置
 
-![](./images/database/mysql-use-ssh-tunnel-config.png)
+![Mysql Use Ssh Tunnel Config](./images/database/mysql-use-ssh-tunnel-config.png)
 
 在接下来的弹出窗口中，新增一个 SSH 配置
 
-![](./images/database/create-new-ssh-configuration.png)
+![Create New Ssh Configuration](./images/database/create-new-ssh-configuration.png)
 
 本地以新建一个本地 SSH 连接信息为例做演示：
 
@@ -66,7 +66,7 @@ PhpStorm 内置支持了市面上常见的数据库连接和管理，比如：`M
 6. 确认填写完以上信息后，点击 `Test Connection` 来检测填写是否有误
 7. 如果没有问题，点击 `OK` 保存 SSH 连接信息
 
-![](./images/database/create-new-ssh-configuration-submit.png)
+![Create New Ssh Configuration Submit](./images/database/create-new-ssh-configuration-submit.png)
 
 然后再回到 General 选项卡，跟常规连接方式一样提供对应的连接名称、连接主机、连接端口、用户名、密码和库名
 
@@ -87,22 +87,22 @@ PhpStorm 内置支持了市面上常见的数据库连接和管理，比如：`M
 - 选择 `tables`
 - 双击选择对应表 这里是`users`
 
-  ![](./images/database/select-table.png)
+  ![Select Table](./images/database/select-table.png)
 
 ### 查询
 
 当双击选择对应的表后，在主编辑器视图中将出现对应表的默认前 500 条数据
 
-![](./images/database/select-users-table-result.png)
+![Select Users Table Result](./images/database/select-users-table-result.png)
 
 ### 新增
 
 在主编辑器视图上右击选择 `Add Row` 或者直接使用快捷键 `Command + N` 允许新增一行数据。
 
-![](./images/database/add-new-row-at-users-table.png)
+![Add New Row At Users Table](./images/database/add-new-row-at-users-table.png)
 
 或者也可以在顶部操作栏上点击新增按钮：
-![](./images/database/add-new-row-at-users-table-using-click-add-button.png)
+![Add New Row At Users Table Using Click Add Button](./images/database/add-new-row-at-users-table-using-click-add-button.png)
 
 ### 修改
 
@@ -114,7 +114,7 @@ PhpStorm 内置支持了市面上常见的数据库连接和管理，比如：`M
 2. 修改后如果想预览具体要执行的数据 SQL 语句，可以点击 `Preview pending changes` 查看 SQL
 3. 修改完毕后需要点击顶部操作栏的 `Submit` (快捷键 `Command + Enter`) 对变更进行保存。
 
-![](./images/database/revert-selected-preview-or-submit-changes.png)
+![Revert Selected Preview Or Submit Changes](./images/database/revert-selected-preview-or-submit-changes.png)
 
 :::
 
@@ -128,7 +128,7 @@ PhpStorm 内置支持了市面上常见的数据库连接和管理，比如：`M
 2. 修改后如果想预览具体要执行的数据 SQL 语句，可以点击 `Preview pending changes` 查看 SQL
 3. 修改完毕后需要点击顶部操作栏的 `Submit` (快捷键 `Command + Enter`) 对变更进行保存。
 
-![](./images/database/revert-selected-preview-or-submit-changes.png)
+![Revert Selected Preview Or Submit Changes](./images/database/revert-selected-preview-or-submit-changes.png)
 :::
 
 ## 导入导出
@@ -139,4 +139,4 @@ PhpStorm 支持数据库、表结构级别的导入导出。实际开发中，�
 2. 在弹出窗口中选择 `Import/Export`
 3. 可选择使用 `mysqldump` 导出
 
-![](./images/database/import-or-export.png)
+![Import Or Export](./images/database/import-or-export.png)

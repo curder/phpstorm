@@ -35,11 +35,11 @@ composer -V
 
 选择 `'composer' executable` 后点击 OK。
 
-![](./images/composer-dependencies/using-composer-executable.png)
+![Using Composer Executable](./images/composer-dependencies/using-composer-executable.png)
 
 依次输入 `license`、`authors.name`、`name`、`description`、`minimum-stability`、`authors.email`
 
-![](./images/composer-dependencies/fill-composer-infomation.png)
+![Fill Composer Infomation](./images/composer-dependencies/fill-composer-infomation.png)
 
 至此初始化 composer 已经完成。
 
@@ -47,7 +47,7 @@ composer -V
 
 在编辑器顶部菜单选择 `Tools` | `Composer` | 点击 `Install`，或者直接在打开 `composer.json` 文件的界面选择 **Install**。
 
-![](./images/composer-dependencies/install-php-dependencies.png)
+![Install Php Dependencies](./images/composer-dependencies/install-php-dependencies.png)
 
 可以看到当前项目生成了 `vendor/` 目录和 `composer.lock` 文件。
 
@@ -59,19 +59,19 @@ composer -V
 
 1. 在主菜单界面选择 `Tools` -> `Composer` -> 选择 `Manage Dependencies...`（或者在打开 `composer.json` 文件界面点击右上角的
    ⚙️ 按钮，选择 `Manage Dependencies...`）
-   ![](./images/composer-dependencies/add-compose-dependencies-using-manage-dependencies.png)
+   ![Add Compose Dependencies Using Manage Dependencies](./images/composer-dependencies/add-compose-dependencies-using-manage-dependencies.png)
 
 2. 在随即打开的 `composer.json` 文件中输入要安装的软件包名，并点击 `Update` 安装软件包
     1. 输入需要安装的软件包 [guzzlehttp/guzzle](https://github.com/guzzle/guzzle)
     2. 确认安装包输入无误后，点击 `Update` 确认安装
     3. 等待片刻，软件包就安装到本地 `vendor/` 目录下
-       ![](./images/composer-dependencies/enter-install-package-name-and-update.png)
+       ![Enter Install Package Name And Update](./images/composer-dependencies/enter-install-package-name-and-update.png)
 
 ## 更新 Composer 依赖
 
 在编辑器顶部菜单选择 `Tools` | `Composer` | 点击 `Update`，或者直接在打开 `composer.json` 文件的界面选择 **Update**。
 
-![](./images/composer-dependencies/update-php-dependencies.png)
+![Update Php Dependencies](./images/composer-dependencies/update-php-dependencies.png)
 
 可以看到本地生成了 `vendor/` 目录和 `composer.lock` 文件。
 

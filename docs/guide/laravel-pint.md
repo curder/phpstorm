@@ -50,13 +50,13 @@ composer require laravel/pint --dev
 
     `Command + ,` 系统偏好设置 -> `Tools` -> `Refactor codes` -> 点击 `All file types` 下拉框，反选 `PHP` 即可。
 
-    ![](./images/laravel-pint/turn-off-built-in-code-formatting-for-php.png)
+    ![Turn Off Built In Code Formatting For Php](./images/laravel-pint/turn-off-built-in-code-formatting-for-php.png)
 
 2. 为 Laravel Pint 创建一个新的 File Watcher
 
     `Command + ,` 系统偏好设置 -> `Tooles` -> `File Watchers` -> Add `Command + N` -> 选择 `Custom`，在弹窗中输入如下配置
 
-    ![](./images/laravel-pint/add-new-file-watcher.png)
+    ![Add New File Watcher](./images/laravel-pint/add-new-file-watcher.png)
 
     - `Program`: `$ProjectFileDir$/vendor/bin/pint`
     - `Arguments`: `$FileRelativePath$`
@@ -65,6 +65,6 @@ composer require laravel/pint --dev
 
 3. 检查配置是否正确
 
-    ![](./images/laravel-pint/create-a-new-file-watcher-for-laravel-pint.png)
+    ![Create A New File Watcher For Laravel Pint](./images/laravel-pint/create-a-new-file-watcher-for-laravel-pint.png)
 
 4. 在 PHP 文件中测试 pint 是否能正确生效

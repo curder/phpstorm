@@ -2,7 +2,9 @@
 
 PSR-12 是 [PHP-FIG](https://www.php-fig.org/) 组织为 PHP 制定的编码风格标准。
 
+<!-- markdownlint-disable MD013 -->
 如果要让 PHP 项目遵循 PSR-12 标准，可以通过 [PHP-CS-Fixer](https://packagist.org/packages/friendsofphp/php-cs-fixer) 这类的第三方扩展对 PHP 项目代码进行自动检测，可以将这些代码风格检测逻辑放到提交代码到代码仓库的钩子函数中，如果不符合指定编码风格（不限于 PSR-12，还可以是自定义的编码风格等），则拒绝提交代码，这样就可以保证代码仓库中维护的代码都是符合特定编码风格的。
+<!-- markdownlint-enable MD013 -->
 
 在 PhpStorm 中，可以通过集成外部安装的这些代码检查工具非常方便的对代码进行自动检测和修复，从而让最终提交到版本库中的代码都是符合特定代码风格的。
 
@@ -20,7 +22,7 @@ composer global require friendsofphp/php-cs-fixer
 which php-cs-fixer
 ```
 
-![](./images/php-cs-fixer-processing-code-style/which-php-cs-fixer-get-bin-path.png)
+![Which Php Cs Fixer Get Bin Path](./images/php-cs-fixer-processing-code-style/which-php-cs-fixer-get-bin-path.png)
 
 ## 配置 php-cs-fixer
 
@@ -29,31 +31,31 @@ which php-cs-fixer
     1. 在 PhpStorm 的 `Preferences` -> `PHP` -> `Quality Tools` 配置界面中，目前还没有配置任何 PHP CS Fixer 路径：
 
         ::: details 点击切换截图展示与隐藏
-        ![](./images/php-cs-fixer-processing-code-style/config-php-cs-fixer-integration.png)
+        ![Config Php Cs Fixer Integration](./images/php-cs-fixer-processing-code-style/config-php-cs-fixer-integration.png)
         :::
 
     2. 点击上图的 `...` 新增一个配置，在新增的弹出层输入如下配置：
 
-        - 1. 新增一个PHP配置 2. 在弹出层的下拉选项选择一个PHP版本 3. 点击 `OK` 确认选择
-
+       1. 新增一个PHP配置
             ::: details 点击切换截图展示与隐藏
-            ![](./images/php-cs-fixer-processing-code-style/config-php-cs-fixer-path-step1.png)
+            ![Config Php Cs Fixer Path Step1](./images/php-cs-fixer-processing-code-style/config-php-cs-fixer-path-step1.png)
             :::
 
-        - 2. 在新增的PHP配置中将 phpcs 路径提供
+       2. 在新增的PHP配置中将 phpcs 路径提供
+          ::: details 点击切换截图展示与隐藏
+          ![Config Php Cs Fixer Path Step2](./images/php-cs-fixer-processing-code-style/config-php-cs-fixer-path-step2.png)
+          :::
 
-            ::: details 点击切换截图展示与隐藏
-            ![](./images/php-cs-fixer-processing-code-style/config-php-cs-fixer-path-step2.png)
-            :::
-
-        - 3. 点击 OK 保存配置
+       3. 点击 OK 保存配置
 
 2. 启用 PHP CS Fixer
 
+    <!-- markdownlint-disable MD013 -->
     PHP CS Fixer 默认是关闭的，在 PhpStorm 的 `Preferences` -> `Editor` -> `Inspections` 配置界面中，找到右侧 **PHP** | **Quality Tools** | **PHP CS Fixer validation**，并将右侧的 Ruleset 中选择 PSR12 标准。
+    <!-- markdownlint-enable MD013 -->
 
     ::: details 点击切换截图展示与隐藏
-    ![](./images/php-cs-fixer-processing-code-style/enable-php-cs-fixer-inspection-use-psr12.png)
+    ![Enable Php Cs Fixer Inspection Use Psr12](./images/php-cs-fixer-processing-code-style/enable-php-cs-fixer-inspection-use-psr12.png)
     :::
 
 ## 修复代码 php-cs-fixer
@@ -71,10 +73,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {return view('welcome');}); // [!code focus]
 ```
 
+<!-- markdownlint-disable MD013 -->
 代码下面出现波浪线，这意味着 `PHP CS Fixer` 检查到不符合系统设置编码风格的代码（当前为PSR-12），将光标移动到出现问题的代码位置处，使用快捷键 `Option（或 Alt）⌥ + Enter`，弹出快捷修复弹出层，选择 `PHP CS Fixer: fix the whole file`后回车确认
+<!-- markdownlint-enable MD013 -->
 
 ::: details 点击切换截图展示与隐藏
-![](./images/php-cs-fixer-processing-code-style/php-cs-fixer-fix-the-whole-file.png)
+![Php Cs Fixer Fix The Whole File](./images/php-cs-fixer-processing-code-style/php-cs-fixer-fix-the-whole-file.png)
 :::
 
 ### 批量修正
@@ -84,7 +88,7 @@ Route::get('/', function () {return view('welcome');}); // [!code focus]
 在 `Preferences` -> `Tools` -> `External Tools` 界面点击 `+` 新建一个外部工具：
 
 ::: details 点击切换截图展示与隐藏
-![](./images/php-cs-fixer-processing-code-style/add-new-external-tool-for-php-cs-fixer.png)
+![Add New External Tool For Php Cs Fixer](./images/php-cs-fixer-processing-code-style/add-new-external-tool-for-php-cs-fixer.png)
 :::
 
 在弹出窗中输入如下内容：
@@ -96,7 +100,7 @@ Route::get('/', function () {return view('welcome');}); // [!code focus]
 - Working directory: `$ProjectFileDir$`
 
 ::: details 点击切换截图展示与隐藏
-![](./images/php-cs-fixer-processing-code-style/config-php-cs-fixer-for-external-tool.png)
+![Config Php Cs Fixer For External Tool](./images/php-cs-fixer-processing-code-style/config-php-cs-fixer-for-external-tool.png)
 :::
 
 将这个外部工具命名为 `PHP CS Fixer`，在 Paragam 输入 `php-cs-fixer` 所在系统绝对路径，参数中输入修复指令，这里我们指定路径为当前目录，验证规则为 `PSR-12`，最后点击 `OK` 保存。
@@ -104,13 +108,13 @@ Route::get('/', function () {return view('welcome');}); // [!code focus]
 接下来，就可以在 PhpStorm 的 Project 区域选中某个目录，点击右键，在下拉菜单看到 `External Tools` -> `PHP CS Fixer` 选项：
 
 ::: details 点击切换截图展示与隐藏
-![](./images/php-cs-fixer-processing-code-style/apply-external-tool-php-cs-fixer.png)
+![Apply External Tool Php Cs Fixer](./images/php-cs-fixer-processing-code-style/apply-external-tool-php-cs-fixer.png)
 :::
 
 点击 PHP CS Fixer 就可以对选中目录进行进行代码检查和修复了，实际上指定的是前面配置的 `php-cs-fixer fix` 指令，执行结果会输入到 PhpStorm 下方 Run 区域：
 
 ::: details 点击切换截图展示与隐藏
-![](./images/php-cs-fixer-processing-code-style/run-external-tool-php-cs-fixer.png)
+![Run External Tool Php Cs Fixer](./images/php-cs-fixer-processing-code-style/run-external-tool-php-cs-fixer.png)
 :::
 
 如果有代码被修正，会列在控制台输出日志中。可以直接在指定目录下执行对应 fix 指令，只不过在 PhpStorm 中通过这种配置外部工具的方式更加直观更加便捷，还可以为这个 PHP CS Fixer 外部工具配置一个快捷键，这样就更加方便。
@@ -176,7 +180,7 @@ php-cs-fixer 支持将项目配置保存在项目根目录中的 `.php-cs-fixer.
 - 重新配置外部工具来实现批量修正指定目录的代码风格
     在 `Preferences` -> `Tools` -> `External Tools` 界面点击 `+` 新建一个外部工具：
     ::: details 点击切换截图展示与隐藏
-    ![](./images/php-cs-fixer-processing-code-style/add-new-external-tool-for-php-cs-fixer.png)
+    ![Add New External Tool For Php Cs Fixer](./images/php-cs-fixer-processing-code-style/add-new-external-tool-for-php-cs-fixer.png)
     :::
 
     在弹出窗中输入如下内容：
@@ -188,7 +192,7 @@ php-cs-fixer 支持将项目配置保存在项目根目录中的 `.php-cs-fixer.
     - Working directory: `$ProjectFileDir$`
 
     ::: details 点击切换截图展示与隐藏
-    ![](./images/php-cs-fixer-processing-code-style/config-php-cs-fixer-for-external-tool-using-custom-config-file.png)
+    ![Config Php Cs Fixer For External Tool Using Custom Config File](./images/php-cs-fixer-processing-code-style/config-php-cs-fixer-for-external-tool-using-custom-config-file.png)
     :::
 
     将这个外部工具命名为 `PHP CS Fixer`，在 Paragam 输入 `php-cs-fixer` 所在系统绝对路径，参数中输入修复自定义配置，这里我们指定路径为当前目录，验证规则为 `PSR-12`，最后点击 `OK` 保存。
@@ -198,5 +202,5 @@ php-cs-fixer 支持将项目配置保存在项目根目录中的 `.php-cs-fixer.
 如果不想每次都查看修复后的结果打印，可以在配置工具是将 `Advanced Options` -> `Open console for tool output` 关闭即可。
 
 ::: details 点击切换截图展示与隐藏
-![](./images/php-cs-fixer-processing-code-style/close-output-for-php-cs-fixer.png)
+![Close Output For Php Cs Fixer](./images/php-cs-fixer-processing-code-style/close-output-for-php-cs-fixer.png)
 :::

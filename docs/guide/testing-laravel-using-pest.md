@@ -96,7 +96,7 @@ php artisan pest:install
 
 将 PHPUint 代码逻辑修改为 Pest，可以看到明显简化了代码，代码一目了然。
 
-![](./images/testing-laravel-using-pest/run-pest-tests-using-terminal.png)
+![Run Pest Tests Using Terminal](./images/testing-laravel-using-pest/run-pest-tests-using-terminal.png)
 
 但是，使用 PhpStorm 运行测试，需要安装插件才能正常集成。
 
@@ -106,15 +106,15 @@ Pest 当前支持 PhpStorm 和 VSCode，可以在这里查看：[docs/ide-plugin
 
 1. 使用快捷键 `⌘ +` ,，打开 IDE 设置并选择 `Plugins` -> `Marketplace`
 
-    ![](./images/testing-laravel-using-pest/search-plugin-step.png)
+    ![Search Plugin Step](./images/testing-laravel-using-pest/search-plugin-step.png)
 
 2. 输入 `Pest` 进行搜索 -> 安装插件
-    ![](./images/testing-laravel-using-pest/install-pest.png)
+    ![Install Pest](./images/testing-laravel-using-pest/install-pest.png)
 
 3. 使用快捷键 `⌘ + ,`，打开 IDE 设置并选择 **PHP**
 
 4. 检查当前所选 PHP 解释器
-   ![](./images/testing-laravel-using-pest/select-php-cli-interpreter.png)
+   ![Select Php Cli Interpreter](./images/testing-laravel-using-pest/select-php-cli-interpreter.png)
 
    在 PHP 页面上，从 CLI Interpreter 列表中选择相关的 PHP 版本，如果没有请添加。
 
@@ -123,7 +123,7 @@ Pest 当前支持 PhpStorm 和 VSCode，可以在这里查看：[docs/ide-plugin
     1. 点击 New（或者使用快捷键 `Control（或 Ctrl）⌃ + N`） 新建一个 `Pest Local`。
 
        ::: details 点击切换截图展示与隐藏
-       ![](./images/testing-laravel-using-pest/new-pest-local-dialog.png)
+       ![New Pest Local Dialog](./images/testing-laravel-using-pest/new-pest-local-dialog.png)
        :::
 
     2. 输入如下内容：
@@ -133,11 +133,11 @@ Pest 当前支持 PhpStorm 和 VSCode，可以在这里查看：[docs/ide-plugin
         2. 在 `Test Runner` 分组勾选上 **Default configuration file:** 输入当前项目的绝对路径 + `phpunit.xml`
 
         ::: details 点击切换截图展示与隐藏
-        ![](./images/testing-laravel-using-pest/config-pest-local-setting.png)
+        ![Config Pest Local Setting](./images/testing-laravel-using-pest/config-pest-local-setting.png)
         :::
 
     至此，已将 Pest 集成到了 PHPStorm 中。
 
 下面是使用 pest 集成到 PhpStorm 中运行后的结果：
 
-![](./images/testing-laravel-using-pest/run-pest-tests-using-phpstorm-plugin.png)
+![Run Pest Tests Using Phpstorm Plugin](./images/testing-laravel-using-pest/run-pest-tests-using-phpstorm-plugin.png)

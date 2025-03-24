@@ -34,7 +34,7 @@
 4. 在弹出层输入命名空间前缀
 5. 点击 **OK** 保存设置
 
-![](./images/automatic-psr-4-amespacing/psr-4-autoloader-setting.png)
+![Psr 4 Autoloader Setting](./images/automatic-psr-4-amespacing/psr-4-autoloader-setting.png)
 
 > 从图上可知在 Laravel 框架项目中，PhpStorm 默认给其添加了三个 `Source Folders`。
 > 这样在对应目录有新的类添加时就会自动添加命名空间前缀了。

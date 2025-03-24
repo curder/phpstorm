@@ -10,16 +10,18 @@
 
 如果您确定不需要这些目录，则可以删除它们。
 
-1. 删除系统应用程序 `Applications` 目录中的 PhpStorm 应用程序。
+- 删除系统应用程序 `Applications` 目录中的 PhpStorm 应用程序。
 
+- 删除以下目录：
 <!--@include: ./partials/uninstall/delete-some-directories.md-->
 
 ## 卸载使用 Toolbox App 安装
 
 如果使用 Toolbox App 安装了 PhpStorm，请执行以下操作：
 
-1. 打开 Toolbox 应用程序，单击必要实例的设置图标，然后选择卸载。
+- 打开 Toolbox 应用程序，单击必要实例的设置图标，然后选择卸载。
 
-    ![](./images/uninstall/uninstall-phpstorm-using-toolbox.png)
+    ![Uninstall Phpstorm Using Toolbox](./images/uninstall/uninstall-phpstorm-using-toolbox.png)
 
+- 删除以下目录：
 <!--@include: ./partials/uninstall/delete-some-directories.md-->

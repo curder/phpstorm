@@ -10,11 +10,11 @@ PhpStorm 插件安装、卸载管理是在系统偏好设定的 `Plugins` 里。
 
 - 方式一：可以使用快捷键 `Command + ,` 在偏好设置 `Preferences` -> `Plugins` 菜单栏打开插件安装界面：
 
-    ![](./images/plugins/marketplace-plugins.png)
+    ![Marketplace Plugins](./images/plugins/marketplace-plugins.png)
 
 - 方式二：使用快捷键 `Shift + Shift` 或 `Command + Shift + A`后，输入 **Plugins** 来打开插件安装界面：
 
-    ![](./images/plugins/search-plugins-use-keymap.png)
+    ![Search Plugins Use Keymap](./images/plugins/search-plugins-use-keymap.png)
 
 ## 搜索安装
 
@@ -22,7 +22,7 @@ PhpStorm 插件安装、卸载管理是在系统偏好设定的 `Plugins` 里。
 
 比如想要在 PhpStorm 中安装 `CamelCase` 插件，输入插件名会自动搜索，在下拉列表选择正确的插件，右侧会显示对应插件的简单介绍和使用方法，点击 `Install` 即可安装到本地，最后记得点击 **OK** 保存。
 
-![](./images/plugins/install-plugin.png)
+![Install Plugin](./images/plugins/install-plugin.png)
 
 ::: info 注意
 有的插件需要重启 PhpStorm 才能生效，具体以插件使用说明为准。
@@ -35,13 +35,13 @@ PhpStorm 插件安装、卸载管理是在系统偏好设定的 `Plugins` 里。
 1. 下载jar安装包
     还是以安装 `CamelCase` 插件为例，搜索并来到插件的详情页面的 `Versions` 选择符合编辑器版本的软件进行下载：
 
-    ![](./images/plugins/download-plugin-jar-data.png)
+    ![Download Plugin Jar Data](./images/plugins/download-plugin-jar-data.png)
 
 2. 在 PhpStorm 中启用
     - 单击齿轮图标的设置按钮，然后选择 `Install Plugin from disk...`
     - 选择上一步下载的插件jar文件并单击确定
     - 单击确定以应用更改并在出现提示时重新启动 PhpStorm
-    ![](./images/plugins/install-plugin-from-disk.png)
+    ![Install Plugin From Disk](./images/plugins/install-plugin-from-disk.png)
 
 ## 卸载
 
@@ -52,7 +52,7 @@ PhpStorm 插件安装、卸载管理是在系统偏好设定的 `Plugins` 里。
 3. 使用空格禁用
 4. 右键点击选择 `Uninstall` 卸载插件
 5. 点击 **OK** 确认操作
-    ![](./images/plugins/uninstall-plugin.png)
+    ![Uninstall Plugin](./images/plugins/uninstall-plugin.png)
 
 ## 插件推荐
 
@@ -93,6 +93,7 @@ PhpStorm 插件安装、卸载管理是在系统偏好设定的 `Plugins` 里。
 `Presentation Assistant` 插件用于显示调用的操作的名称和键盘快捷键。
 
 ::: info **注意：** 新版 PhpStorm 已经集成在编辑器。
-
+<!-- markdownlint-disable MD013 -->
 在编辑器在主菜单中，转到查看| 外观并启用 `Presentation Assistant`，更多使用详情可以[查看官方文档](https://www.jetbrains.com/help/phpstorm/presentation-assistant.html#configure-the-keymap)。
+<!-- markdownlint-enable MD013 -->
 :::

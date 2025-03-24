@@ -148,11 +148,11 @@ PhpStorm 的查看工作区文件变更情况远不止查看文件变更历史�
 
 接着点击 `Create new branch...`
 
-![](./images/use-process-of-git-version-control/create-new-branch.png)
+![Create New Branch](./images/use-process-of-git-version-control/create-new-branch.png)
 
 然后命名一个新分支即可。
 
-![](./images/use-process-of-git-version-control/create-new-branch-add-branch-name.png)
+![Create New Branch Add Branch Name](./images/use-process-of-git-version-control/create-new-branch-add-branch-name.png)
 
 ### 删除本地分支
 
@@ -160,11 +160,11 @@ PhpStorm 的查看工作区文件变更情况远不止查看文件变更历史�
 
 在 PhpStorm 中可以通过主菜单上的 `Git` -> 选择 `Branches...`
 
-![](./images/use-process-of-git-version-control/branchs-list-panel.png)
+![Branchs List Panel](./images/use-process-of-git-version-control/branchs-list-panel.png)
 
 或者通过快捷键 `Ctrl + V` 呼出 VSC 操作项，接着选择 `Branches...`，在接下来的弹窗选择对应分支，再选中 `Delete` 操作。
 
-![](./images/use-process-of-git-version-control/delete-a-local-branch.png)
+![Delete A Local Branch](./images/use-process-of-git-version-control/delete-a-local-branch.png)
 
 ::: tip 温馨提示
 删除的分支不能是当前所在分支
@@ -176,15 +176,15 @@ PhpStorm 的查看工作区文件变更情况远不止查看文件变更历史�
 
 在 PhpStorm 中可以通过主菜单上的 `Git` -> 选择 `Branches...`
 
-![](./images/use-process-of-git-version-control/branchs-list-panel-for-rename.png)
+![Branchs List Panel For Rename](./images/use-process-of-git-version-control/branchs-list-panel-for-rename.png)
 
 或者通过快捷键 `Ctrl + V` 呼出 VSC 操作项，接着选择 `Branches...`，在接下来的弹窗选择对应分支，再选中 `Rename` 操作。
 
-![](./images/use-process-of-git-version-control/rename-a-local-branch.png)
+![Rename A Local Branch](./images/use-process-of-git-version-control/rename-a-local-branch.png)
 
 在接下来的弹出层中输入修改后的分支名，然后点击 Rename 确认修改
 
-![](./images/use-process-of-git-version-control/submit-rename-a-local-branch.png)
+![Submit Rename A Local Branch](./images/use-process-of-git-version-control/submit-rename-a-local-branch.png)
 
 ### 分支合并操作
 
@@ -192,12 +192,12 @@ PhpStorm 的查看工作区文件变更情况远不止查看文件变更历史�
 
 在 PhpStorm 中可以通过主菜单上的 `Git` -> 选择 `Branches...`
 
-![](./images/use-process-of-git-version-control/merge-another-local-branch.png)
+![Merge Another Local Branch](./images/use-process-of-git-version-control/merge-another-local-branch.png)
 
 或者通过快捷键 `Ctrl + V` 呼出 VSC 操作项，接着选择 `Branches...`，在接下来的弹窗选择对应分支，再选中 `Merge ... into ...`
 操作。
 
-![](./images/use-process-of-git-version-control/merge-another-local-branch-submit.png)
+![Merge Another Local Branch Submit](./images/use-process-of-git-version-control/merge-another-local-branch-submit.png)
 
 ## 标签管理
 
@@ -213,7 +213,7 @@ Git 支持两种标签：轻量标签（lightweight）与附注标签（annotate
 
 在 PhpStorm 中可以通过主菜单上的 `Git` -> 选择 `New Tag...`，这种方式创建的标签需要添加hashId，hashId的值可以通过提交历史获取。
 
-![](./images/use-process-of-git-version-control/create-new-tag-from-main-menu.png)
+![Create New Tag From Main Menu](./images/use-process-of-git-version-control/create-new-tag-from-main-menu.png)
 
 以上方式在弹出的输入框由如下信息：
 
@@ -222,18 +222,18 @@ Git 支持两种标签：轻量标签（lightweight）与附注标签（annotate
 3. 提交信息简介，如果提供了信息则为"附注标签"
    ，参考[git-scm 附注标签](https://git-scm.com/book/zh/v2/Git-%E5%9F%BA%E7%A1%80-%E6%89%93%E6%A0%87%E7%AD%BE)
 4. 以上信息确认无误后点击 `Create Tag` 确认输入
-   ![](./images/use-process-of-git-version-control/create-new-tag-from-main-menu-form.png)
+   ![Create New Tag From Main Menu Form](./images/use-process-of-git-version-control/create-new-tag-from-main-menu-form.png)
 
 #### 方式二：提交历史记录
 
 使用快捷键 `Command + 9` 打开提交历史记录列表，将光标选中指定提交历史，右键点击获取弹出层，选中 `New Tag...`
 
-![](./images/use-process-of-git-version-control/create-new-tag-from-commit-histories.png)
+![Create New Tag From Commit Histories](./images/use-process-of-git-version-control/create-new-tag-from-commit-histories.png)
 
 可以看到，相比方式一：通过主菜单新建标签的方式不同的是，由于已经选择了具体关联的提交记录，所以不再需要提供
 hashId，然后默认提交的是轻量标签，所以我们仅需要提供标签名称即可。
 
-![](./images/use-process-of-git-version-control/create-new-tag-from-commit-histories-submit.png)
+![Create New Tag From Commit Histories Submit](./images/use-process-of-git-version-control/create-new-tag-from-commit-histories-submit.png)
 
 ### 删除标签
 
@@ -242,4 +242,4 @@ hashId，然后默认提交的是轻量标签，所以我们仅需要提供标�
 
 然后选中 `Delete`，确认操作误后点击回车确认即可。
 
-![](./images/use-process-of-git-version-control/delete-exists-tag.png)
+![Delete Exists Tag](./images/use-process-of-git-version-control/delete-exists-tag.png)

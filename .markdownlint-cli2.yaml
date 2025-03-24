@@ -70,6 +70,8 @@ config:
     # Only check sibling headings.
     siblings_only: true
 
+  MD028: false
+
   # MD033/no-inline-html - Inline HTML.
   MD033:
     # Allowed elements.
@@ -93,5 +95,6 @@ config:
       - sql
       - dotenv
 
+  MD041: false
   # MD042/no-empty-links : No empty links : https://github.com/DavidAnson/markdownlint/blob/v0.37.4/doc/md042.md
   MD042: true

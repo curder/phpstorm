@@ -12,16 +12,16 @@ PhpStorm 使用 [Docker插件](https://plugins.jetbrains.com/plugin/7724-docker)
 2. 配置 Docker 守护程序连接设置
     - 使用快捷键 `Command + ,`打开系统偏好设置，选择 `Build, Execution, Deployment` -> `Docker`
     - 点击 `+` 添加 Docker 配置并指定如何连接到 Docker 守护程序
-      ![](./images/docker-and-docker-compose/phpstorm-docker-settings.png)
+      ![Phpstorm Docker Settings](./images/docker-and-docker-compose/phpstorm-docker-settings.png)
     - 连接到 Docker 守护程序
       配置的 Docker 连接会出现在服务工具窗口中（使用快捷键 `Command + 8`切换显示和隐藏）。 选择 `Docker`
       节点并单击连接按钮，或从上下文菜单中选择连接。
-      ![](./images/docker-and-docker-compose/phpstorm-docker-connected.png)
+      ![Phpstorm Docker Connected](./images/docker-and-docker-compose/phpstorm-docker-connected.png)
       要编辑 `Docker` 连接设置，可以选择 `Docker` 节点并单击工具栏上的编辑配置按钮，或从上下文菜单中选择编辑配置。
 
       在 Services 工具窗口（使用快捷键 `Command + 8`）中，可以拉取和推送镜像、创建和运行容器、管理 Docker Compose 服务等。
       也可以与其他工具窗口一样，输入镜像或容器的名称以突出显示匹配的项目。
-      ![](./images/docker-and-docker-compose/phpstorm-find-and-inspect-image.png)
+      ![Phpstorm Find And Inspect Image](./images/docker-and-docker-compose/phpstorm-find-and-inspect-image.png)
 
 ## 镜像管理
 
@@ -31,7 +31,7 @@ PhpStorm 使用 [Docker插件](https://plugins.jetbrains.com/plugin/7724-docker)
 2. 单击添加按钮以添加 `Docker Registry` 配置并指定如何连接到注册表。如果指定授权凭证，PhpStorm
    将自动检查与注册表的连接，连接成功消息应出现在对话框底部。
 
-   ![](./images/docker-and-docker-compose/phpstorm-docker-registry-dialog.png)
+   ![Phpstorm Docker Registry Dialog](./images/docker-and-docker-compose/phpstorm-docker-registry-dialog.png)
 
    更多 Docker Registry 配置可以[查看这里](https://www.jetbrains.com/help/phpstorm/settings-docker-registry.html)
 
@@ -41,21 +41,21 @@ PhpStorm 使用 [Docker插件](https://plugins.jetbrains.com/plugin/7724-docker)
 
 2. 在镜像的控制台下，输入要拉取的图像的名称，例如 `curder/laravel-docker`
 
-   ![](./images/docker-and-docker-compose/phpstorm-docker-pull-image-console.png)
+   ![Phpstorm Docker Pull Image Console](./images/docker-and-docker-compose/phpstorm-docker-pull-image-console.png)
 
 3. 按 `Command + Enter` 拉取镜像到本地。
 
-   ![](./images/docker-and-docker-compose/phpstorm-docker-pull-image-processing.png)
+   ![Phpstorm Docker Pull Image Processing](./images/docker-and-docker-compose/phpstorm-docker-pull-image-processing.png)
 
 ### 将镜像推送到 Docker Registry 仓库
 
 1. 在服务 `Services` 工具窗口中（使用快捷键 `Command + 8`），选择要上传的镜像并单击 `push image` 按钮或从上下文菜单中选择 `push image`
 
-   ![](./images/docker-and-docker-compose/phpstorm-docker-push-image.png)
+   ![Phpstorm Docker Push Image](./images/docker-and-docker-compose/phpstorm-docker-push-image.png)
 
 2. 选择 Docker Registry 并指定名称和版本标签（镜像的名称和版本，例如 `my-laravel-docker:v2`）
 
-   ![](./images/docker-and-docker-compose/phpstorm-docker-push-dialog.png)
+   ![Phpstorm Docker Push Dialog](./images/docker-and-docker-compose/phpstorm-docker-push-dialog.png)
 
 3. 单击 `OK` 运行 docker 推送命令
 

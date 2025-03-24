@@ -60,7 +60,7 @@ class CommandNameTranslatorTest extends TestCase
 
 此时右键点击选择 `More Run/Debug` | `Run ... With Coverage`
 
-![](./images/code-coverage/run-debug-with-coverage.png)
+![Run Debug With Coverage](./images/code-coverage/run-debug-with-coverage.png)
 
 运行之后会抛出错误，因为 `CommandNameTranslator` 类中当前并没有对应的 `toValidatorName` 方法。
 
