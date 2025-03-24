@@ -13,7 +13,6 @@ PhpStorm 支持通过 `Live Templates` 功能在编写具体业务代码时快�
 
 进入文件代码片段界面，在这里可以看到 PhpStorm 内置支持的所有语言的代码片段：
 
-
 ::: details 点击切换展示与隐藏
 ![](./images/live-templates/live-templates.png)
 :::
@@ -24,9 +23,7 @@ PhpStorm 支持通过 `Live Templates` 功能在编写具体业务代码时快�
 ![](./images/live-templates/create-new-function-use-pubf-live-template.gif)
 :::
 
-
 ## 自定义代码片段
-
 
 ### 新建 `Template Group`
 
@@ -74,14 +71,8 @@ PhpStorm 支持通过 `Live Templates` 功能在编写具体业务代码时快�
 
 ### 使用自定以代码片段
 
-
 在代码编辑器中选取一个表单片段，尝试输入 `tfield`，然后点击 `Tab` 键自动生成对应模板代码，在红色光标处输入 `name` ，可以看到其它变量位置都会自动填充对应的字符串。如下：
 
 ![](./images/live-templates/apply-custom-live-template.gif)
 
-
 在日常使用 PhpStorm 进行编码的过程中，灵活创建和定义代码模板可以极大提高编码效率。
-
-
-
-

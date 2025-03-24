@@ -65,8 +65,6 @@ PhpStorm 可以将一组实现类似功能的类方法抽象出来构建一个�
 
    ![](./images/refactoring-for-extract-interface/show-implement-interface-dialog.png)
 
-
 2. 在新建 PHP 类的弹出窗口输入对应类名、检查类命名空间以及文件名和存储路径，如果没有问题，则可以点击 `OK` 确认通过接口创建类。
 
    ![](./images/refactoring-for-extract-interface/create-new-php-class-using-interface.png)
-

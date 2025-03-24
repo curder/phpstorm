@@ -27,10 +27,11 @@ $result = getMessage("Curder", 1);
 
 然而上面的情况我们可以很方便的在 xdebug 中追踪逻辑在运行过程中变量的赋值情况。
 
-
 PhpStorm 支持直接使用 Xdebug 调试 PHP 文件，但是需要有如下前置需求：
 
+<!-- markdownlint-disable MD013 -->
 下载与 PHP 版本兼容的 [Xdebug 扩展](https://www.xdebug.org/)，并按照[安装指南](https://xdebug.org/docs/install)中的说明进行安装，[可以参考这里给 PHP 安装好 Xdebug 扩展](https://www.jetbrains.com/help/phpstorm/configuring-xdebug.html#updatingPhpIni)
+<!-- markdownlint-enable MD013 -->
 
 ## 在 PhpStorm 中配置 Xdebug
 
@@ -42,19 +43,18 @@ PhpStorm 支持直接使用 Xdebug 调试 PHP 文件，但是需要有如下前�
    2. 打开的 CLI 解释器对话框显示以下内容：
       1. 所选 PHP 安装的版本。
       2. 与所选 PHP 安装（Xdebug 或 Zend Debugger）关联的调试引擎的名称和版本。如果没有配置调试器，PhpStorm 会显示相应的消息：
-      ![](./images/xdebug-for-signal-php-file/cli-general-info.png)
-
+      ![cli general info](images/xdebug-for-signal-php-file/cli-general-info.png)
 
 ## 开始调试 PHP 文件
 
 当 PHP 配置好 Xdebug，并且在 PhpStorm 中正确设置后就可以对 `.php` 文件进行调试。
 
 来到主菜单栏 `Run` -> `Debug 'index.php'`（或者直接使用快捷键 `Control（或 Ctrl）⌃ + D`）就可以对当前文件进行调试，但是执行完之后发现代码并没有按预期，脚本执行完直接退出了。
-![](./images/xdebug-for-signal-php-file/start-debugging-php-script.png)
+![start debugging php script](images/xdebug-for-signal-php-file/start-debugging-php-script.png)
 
 出现这个问题的原因是并**未设置断点**，xdebug并不知道从哪儿截断程序的执行，自然就一直执行到脚本执行完毕才退出。
 
-![](./images/xdebug-for-signal-php-file/click-to-set-endpoint.png)
+![click to set endpoint](./images/xdebug-for-signal-php-file/click-to-set-endpoint.png)
 
 设置完断点后再执行快捷键 `Control（或者 Ctrl）⌃ + D` 就可以看到如下调试界面：
     1. `Show Execution Point` 查看当前断点所在位置
@@ -66,9 +66,7 @@ PhpStorm 支持直接使用 Xdebug 调试 PHP 文件，但是需要有如下前�
 
 > Tips: 在 xdeug 调试过的步骤中，当我们将鼠标光标悬浮在变量名上，可以看到对应变量运行时的值。
 
-
 ## 添加变量监听
-
 
 当调试的项目相对复杂时，会需要单独观察一些变量，可以将它们添加到 `Watches Lists`
 
@@ -79,11 +77,11 @@ PhpStorm 支持直接使用 Xdebug 调试 PHP 文件，但是需要有如下前�
     ::: details 点击切换截图展示与隐藏
     - 使用下面的示例流程开启 `Separate Watches`
 
-        ![](./images/xdebug-for-signal-php-file/add-separate-watches-panel.png)
-    
+        ![add separate watches panel](images/xdebug-for-signal-php-file/add-separate-watches-panel.png)
+
     - 下图为开启 `Separate Watches` 后的面板
 
-        ![](./images/xdebug-for-signal-php-file/default-separate-watches-panel.png)
+        ![default separate watches panel](images/xdebug-for-signal-php-file/default-separate-watches-panel.png)
     :::
 
 ### 添加监听的变量
@@ -91,8 +89,8 @@ PhpStorm 支持直接使用 Xdebug 调试 PHP 文件，但是需要有如下前�
 - 可以通过在输入框添加要监听的变量名，并点击右侧的 `+` 按钮或使用快捷键`Command + Shift + Enter`添加。
 - 也可以点击面板左侧的 `+` 按钮在随后新增的输入框中输入要监听的变量名并按回车 Enter 确认输入。
 
-![](./images/xdebug-for-signal-php-file/add-variable-to-watches.gif)
+![add variable to watches](./images/xdebug-for-signal-php-file/add-variable-to-watches.gif)
 
 这样方便在众多变量中筛选出关心的变量进行监听查看。
 
-![](./images/xdebug-for-signal-php-file/show-variables-on-watches.png)
+![show variables on watches](./images/xdebug-for-signal-php-file/show-variables-on-watches.png)

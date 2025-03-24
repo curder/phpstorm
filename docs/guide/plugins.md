@@ -6,11 +6,9 @@ outline: deep
 
 PhpStorm 除了自带的功能，还可以通过安装第三方插件的方式来扩展编辑器功能。
 
-
 PhpStorm 插件安装、卸载管理是在系统偏好设定的 `Plugins` 里。可以通过下列方式打开  `Plugins`：
 
 - 方式一：可以使用快捷键 `Command + ,` 在偏好设置 `Preferences` -> `Plugins` 菜单栏打开插件安装界面：
-
 
     ![](./images/plugins/marketplace-plugins.png)
 
@@ -18,9 +16,7 @@ PhpStorm 插件安装、卸载管理是在系统偏好设定的 `Plugins` 里。
 
     ![](./images/plugins/search-plugins-use-keymap.png)
 
-
 ## 搜索安装
-
 
 在 `Plugins` 的功能界面包含了两个标签页，左侧对应插件市场 `Marketplace`，用户可以在这里搜索并选择安装的第三方插件。
 
@@ -28,11 +24,9 @@ PhpStorm 插件安装、卸载管理是在系统偏好设定的 `Plugins` 里。
 
 ![](./images/plugins/install-plugin.png)
 
-
 ::: info 注意
 有的插件需要重启 PhpStorm 才能生效，具体以插件使用说明为准。
 :::
-
 
 ## jar存档安装
 
@@ -49,7 +43,6 @@ PhpStorm 插件安装、卸载管理是在系统偏好设定的 `Plugins` 里。
     - 单击确定以应用更改并在出现提示时重新启动 PhpStorm
     ![](./images/plugins/install-plugin-from-disk.png)
 
-
 ## 卸载
 
 在 Plugins 的功能界面包含了两个标签页，右侧编辑器预设和用户安装的第三方插件，可以在这里对插件禁用和卸载。
@@ -60,7 +53,6 @@ PhpStorm 插件安装、卸载管理是在系统偏好设定的 `Plugins` 里。
 4. 右键点击选择 `Uninstall` 卸载插件
 5. 点击 **OK** 确认操作
     ![](./images/plugins/uninstall-plugin.png)
-
 
 ## 插件推荐
 
@@ -81,11 +73,11 @@ PhpStorm 插件安装、卸载管理是在系统偏好设定的 `Plugins` 里。
 下载并安装后，重启 PhpStorm 编辑器外观可以看到支持中文操作界面。
 
 ### [**Chinese PHP Document**](https://plugins.jetbrains.com/plugin/12734)
-    
+
 光标悬浮在 PHP 系统函数上，可以在代码上快速查看其中文文档。
 
 ### [**.env files support**](https://plugins.jetbrains.com/plugin/9525)
-    
+
 `.env` 项目环境文件的高亮显示插件
 
 ### [**CodeGeeX**](https://plugins.jetbrains.com/plugin/20587)
@@ -93,6 +85,7 @@ PhpStorm 插件安装、卸载管理是在系统偏好设定的 `Plugins` 里。
 `CodeGeeX` 是一款基于法学硕士的强大智能编程助手。提供代码生成/补全、注释生成、代码翻译、AI聊天等功能，帮助开发者大幅提升工作效率。
 
 ### [**Laravel Idea**](https://plugins.jetbrains.com/plugin/13441)
+
 [`Laravel`](https://laravel.com) 框架更有好的语法支持插件。
 
 ### [Presentation Assistant](https://plugins.jetbrains.com/plugin/11631)

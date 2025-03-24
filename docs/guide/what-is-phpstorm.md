@@ -24,7 +24,6 @@ PhpStorm 完美支持 `Symfony`、`Laravel`、`Drupal`、`WordPress`、`Zend Fra
 
 借助版本控制系统集成，以及对终端、远程部署、数据库/SQL、命令行工具、`Docker Compose`、REST客户端、Vagrant和许多其他工具的支持，直接从IDE执行许多日常任务。
 
-
 ## 智能代码辅助功能
 
 成百上千次检查会在您输入的同时实时验证代码，分析整个项目。
@@ -37,16 +36,15 @@ PHPDoc支持、代码（重新）排列器与格式化程序、快速修复以�
 
 IDE能够理解您的想要到 的地方并且立刻转跳到该位置。
 
-
 ## 快速安全地重构
 
-使用安全的 `Rename`、`Move`、`Delete`、`Extract Method`、`Inline Variable`、`Push members Up/Pull members Down`、`Change Signature` 和许多其他重构可靠地重构代码。 
+使用安全的 `Rename`、`Move`、`Delete`、`Extract Method`、`Inline Variable`、`Push members Up/Pull members Down`、`Change Signature` 和许多其他重构可靠地重构代码。
 
 语言特定的重构只需点击数下即可执行项目级变更，并且可以安全地撤消此操作。
 
 ## 轻松调试和测试
 
-PhpStorm 以其零配置可视化调试器而闻名，让您能够全面洞察应用程序中每一步的情况。 
+PhpStorm 以其零配置可视化调试器而闻名，让您能够全面洞察应用程序中每一步的情况。
 
 它可与 `Xdebug` 和 `Zend Debugger` 搭配使用，支持远程或本地使用。
 

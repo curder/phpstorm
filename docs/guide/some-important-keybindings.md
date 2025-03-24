@@ -11,7 +11,6 @@
 - 切换文件定义：`Command + E`
 - 查看文件包含属性或方法：`Command + F12`
 
-
 ## 查找操作 `Command + Shift + A`
 
 该命令在编辑器的 主菜单 -> `Help` -> `Find Action...` 后，可以在菜单的后面看到快捷键为：`Command + Shift + A`。
@@ -19,7 +18,7 @@
 > 如果执行上面的命令打开带有 `apropos` 搜索而不是 `查找操作`
 >
 对话框的终端，请[参考这里](https://intellij-support.jetbrains.com/hc/en-us/articles/360005137400-Cmd-Shift-A-hotkey-opens-Terminal-with-apropos-search-instead-of-the-Find-Action-dialog)
-> 
+>
 > :::  details 点击切换截图展示与隐藏
 > 1. 打开 `系统菜单` | `系统偏好设置` | `键盘` | `快捷键` | `服务`
 > 2. 禁用或 Search man Page Index in Terminal (or change the shortcut)

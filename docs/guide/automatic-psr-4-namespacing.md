@@ -26,7 +26,6 @@
 
 在 PhpStorm ，还可以通过 `Preferences` -> `Directories` 进行配置。
 
-
 具体操作如下：
 
 1. 使用快捷键 `⌘ + ,` ，进入到系统偏好设置并选择 `Directories`
@@ -38,7 +37,6 @@
 ![](./images/automatic-psr-4-amespacing/psr-4-autoloader-setting.png)
 
 > 从图上可知在 Laravel 框架项目中，PhpStorm 默认给其添加了三个 `Source Folders`。
-> 这样在对应目录有新的类添加时就会自动添加命名空间前缀了。\
-
+> 这样在对应目录有新的类添加时就会自动添加命名空间前缀了。
 
 通过这种方式，可以很方便的在 PhpStorm 中修改命名空间并且基于 `PSR-4` 自动载入标准新建 PHP 类。

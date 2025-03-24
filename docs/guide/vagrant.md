@@ -46,7 +46,7 @@ PhpStorm 提供与 Vagrant 的完全集成，允许配置 Vagrant 虚拟环境�
 
     - **Box URL:** `https://app.vagrantup.com/ubuntu/boxes/trusty64`
 
-  ![](./images/vagrant/phpstorm-vagrant-add-box.png)
+  ![Phpstorm Vagrant add box](./images/vagrant/phpstorm-vagrant-add-box.png)
 
 一旦 Vagrantfile 初始化完成并指定了虚拟框，就可以部署和运行虚拟机了。
 
@@ -86,6 +86,3 @@ PhpStorm 提供与 Vagrant 的完全集成，允许配置 Vagrant 虚拟环境�
 
 - `Destroy` 销毁：当需要删除与先前创建的环境相关的所有内容时，销毁虚拟机很重要。在创建实例期间提供的所有资源都将被删除
   在终端中运行 `vagrant destroy` 或在主菜单中选择 `Tools` -> `vagrant` -> `Destroy`
-
-
-

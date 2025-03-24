@@ -37,7 +37,6 @@
         ![](./images/create-new-files-quickly/create-new-files-quickly-opend-file-step3.png)
         :::
 
-
 - 方式二：如果当前未打开任何文件，则可以使用如下工作流创建新文件。
 
     1. 使用快捷键 `Command + ↑`呼出导航栏，其中 `↑` 为方向键上
@@ -52,7 +51,6 @@
         :::details 点击切换截图展示与隐藏
         ![](./images/create-new-files-quickly/create-new-files-quickly-step3.png)
         :::
-
 
 ## Laravel 新建常规文件
 
@@ -79,6 +77,3 @@
 :::details 点击切换截图展示与隐藏
 ![](./images/create-new-files-quickly/create-new-files-quickly-using-run-command-show-make-list.png)
 :::
-
-
-

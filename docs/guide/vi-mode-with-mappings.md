@@ -9,7 +9,7 @@
 2. 选择 `Plugins` -> `Marketplace` -> 搜索 `IdeaVim` 关键字
 3. 在搜索结果列表处点击 `Install` 下载到编辑器
    ::: details 点击展示或隐藏截图
-   ![](./images/vi-mode-with-mappings/install-ideavim.png)
+   ![Install Ideavim](./images/vi-mode-with-mappings/install-ideavim.png)
    :::
 
 安装完成后，重启 PhpStorm。
@@ -19,7 +19,7 @@
 1. 点击顶部菜单 `Tools`
 2. 在下拉菜单列表中点击 `Vim Emulator` 启动 Vim 编辑器
    ::: details 点击展示或隐藏截图
-   ![](./images/vi-mode-with-mappings/start-vim-editor.png)
+   ![Start vim editor](./images/vi-mode-with-mappings/start-vim-editor.png)
    :::
 
 > 要禁用它，请在主菜单中取消选择 `Tools` | `Vim Emulator`。
@@ -29,12 +29,12 @@
 启动 `IdeaVim` 之后在代码编辑区域，不再是之前待输入的鼠标光标，而是 `Vim` 编辑器对应的只读光标：
 
 ::: details 点击展示或隐藏截图
-![](./images/vi-mode-with-mappings/readonly-course.png)
+![Readonly Course](./images/vi-mode-with-mappings/readonly-course.png)
 :::
 
 要更改为写入模式，请按字母 `i`，光标将变为一行：
 ::: details 点击展示或隐藏截图
-![](./images/vi-mode-with-mappings/insert-mode.png)
+![Insert Mode](./images/vi-mode-with-mappings/insert-mode.png)
 :::
 
 在只读模式下，可以输入新代码或更改现有代码。也可以进入其他 Vim 模式，比如：输入 `r` 进入替换模式。
@@ -51,13 +51,12 @@ touch ~/.ideavimrc
 echo "imap jj <Esc>" >> ~/.ideavimrc  # 比如配置一个快捷键 在输入模式输入 jj 则自动转换为只读模式 
 ```
 
-**配置完之后需要重启 PhpStorm 编辑器使配置生效**
+> **配置完之后需要重启 PhpStorm 编辑器使配置生效**
 
 ## 测试配置
 
 1. 使用 `i` 进入到写入模式
 2. 输入 2 次 j，进入到只读模式
    ::: details 点击展示或隐藏截图
-   ![](./images/vi-mode-with-mappings/custom-vim-keymap-demo.gif)
+   ![Custom vim keymap demo](./images/vi-mode-with-mappings/custom-vim-keymap-demo.gif)
    :::
-

@@ -10,7 +10,6 @@
 
 下面以在 Mac 系统上安装举例，当前安装的 PhpStorm 版本为：**2022.2**。
 
-
 ## 直接下载并安装
 
 PhpStorm 是跨平台的编辑器软件，来到 [官方下载地址](https://www.jetbrains.com/phpstorm/download/) 对应当前平台下的软件包，比如使用的是 Mac 系统，提供了 `Intel` 和 `Apple Silicon` 两个不同版本，根据不同系统版本进行选择。
@@ -27,11 +26,9 @@ PhpStorm 是跨平台的编辑器软件，来到 [官方下载地址](https://ww
 
 ![](./images/getting-started/import-phpstorm-settings.png)
 
-
 来到授权页面会提示需要登录账号才能使用。可以到[这里登录](https://account.jetbrains.com/login)。
 
 ![](./images/getting-started/phpstorm-should-login-start-trial.png)
-
 
 登录账号后，提示需要购买授权，如果当前没有授权，可以选择 `Start trial` 试用 30 天。
 

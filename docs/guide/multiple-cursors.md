@@ -13,7 +13,7 @@ class Person
     protected int $age;
     protected string $description;
 }
-```                                                              
+```
 
 在 PhpStorm 中有如下几种操作方式。
 

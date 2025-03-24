@@ -7,15 +7,15 @@
 如果觉得 PhpStorm 默认提供的 JetBrains Mono 不好看或者想换一换字体，下面推荐几款常用字体（排序不分先后）：
 
 - 收费字体
-  - [Operator Mono](https://github.com/beichensky/Font)
-  - [Dank Mono](https://github.com/notshekhar/Dank-Mono-Font)
-  - [MonoLisa](https://github.com/koprab/monalisa-font)
-- 免费字体 
-  - [Ubuntu Mono](https://fonts.google.com/specimen/Ubuntu+Mono)、[Ubuntu](https://fonts.google.com/specimen/Ubuntu)、[Ubuntu Condensed](https://fonts.google.com/specimen/Ubuntu+Condensed)
-  - [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
-  - [Fira Code](https://github.com/beichensky/Font/tree/master/FiraCode)
-  - [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
-  - [Robot Mono](https://github.com/googlefonts/RobotoMono)
+    - [Operator Mono](https://github.com/beichensky/Font)
+    - [Dank Mono](https://github.com/notshekhar/Dank-Mono-Font)
+    - [MonoLisa](https://github.com/koprab/monalisa-font)
+- 免费字体
+    - [Ubuntu Mono](https://fonts.google.com/specimen/Ubuntu+Mono)、[Ubuntu](https://fonts.google.com/specimen/Ubuntu)、[Ubuntu Condensed](https://fonts.google.com/specimen/Ubuntu+Condensed)
+    - [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+    - [Fira Code](https://github.com/beichensky/Font/tree/master/FiraCode)
+    - [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
+    - [Robot Mono](https://github.com/googlefonts/RobotoMono)
 
 ## 安装字体
 

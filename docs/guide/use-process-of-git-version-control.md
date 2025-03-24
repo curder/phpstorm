@@ -6,9 +6,9 @@ PhpStorm 集成了 Git、SVN 等版本管理工具，可以快速预览提交历
 
 ## 启用 Git 版本控制
 
-当打开一个没有版本控制的项目时，可以在顶部主菜单 `VCS` | `Enable Version Control Integration...` 
+当打开一个没有版本控制的项目时，可以在顶部主菜单 `VCS` | `Enable Version Control Integration...`
 
-![](./images/use-process-of-git-version-control/enable-version-control-integration.png)
+![Enable version control integration](./images/use-process-of-git-version-control/enable-version-control-integration.png)
 
 点击 OK 确认启用版本控制集成。
 
@@ -18,7 +18,7 @@ PhpStorm 集成了 Git、SVN 等版本管理工具，可以快速预览提交历
 
 如果需要新增到版本库中可以点击 OK；当然也可以选择不添加，然后在后期需要添加的时候再添加。根据情况选择即可。
 
-![](./images/use-process-of-git-version-control/add-file-to-git.png)
+![Add file to git](./images/use-process-of-git-version-control/add-file-to-git.png)
 
 再添加一个 `route.php` 文件并且不添加到 Git 版本库中。
 
@@ -30,7 +30,7 @@ PhpStorm 集成了 Git、SVN 等版本管理工具，可以快速预览提交历
 
 再使用快捷键 Command 9 在查看提交历史面板可以看到本地文件的变更。
 
-![](./images/use-process-of-git-version-control/show-git-local-changes.png)
+![Show git local changes](./images/use-process-of-git-version-control/show-git-local-changes.png)
 
 ## 提交历史管理
 
@@ -42,7 +42,7 @@ PhpStorm 的查看工作区文件变更情况远不止查看文件变更历史�
 
 通过在 PhpStorm 主菜单点击 `Git` -> `Commit` 会弹出当前工作区文件的变更情况，或者直接使用快捷键 `Command + K` 即可。
 
-![](./images/use-process-of-git-version-control/commit-panel.png)
+![Commit panel](./images/use-process-of-git-version-control/commit-panel.png)
 
 1. 功能操作区
 
@@ -75,7 +75,7 @@ PhpStorm 的查看工作区文件变更情况远不止查看文件变更历史�
 使用 `Command + 9` 可以在版本库提交历史中定位到需要回退的版本，并使用右键点击 `Reset current branch to Here`
 ，然后在接下来的弹出层选择需要回退的模式。
 
-![](./images/use-process-of-git-version-control/reset-current-branch-to-some-step.png)
+![Reset Current Branch To Some Step](./images/use-process-of-git-version-control/reset-current-branch-to-some-step.png)
 
 还有另一种情况就是当我们回退版本后发现回退错了，还是应该将版本库切换到回退前的状态。当前建议使用 `git reflog`
 查看版本库历史记录信息，并复制 hash 值。
@@ -90,7 +90,7 @@ PhpStorm 的查看工作区文件变更情况远不止查看文件变更历史�
 
 在顶部主菜单选择 `Git` | `Manage Remotes...` 在弹窗中选择加号添加一个
 
-![](./images/use-process-of-git-version-control/define-remote.png)
+![Define Remote](./images/use-process-of-git-version-control/define-remote.png)
 
 - **Name**: `origin`
 - **URL**: `git@github.com:curder/git-demo.git`
@@ -100,6 +100,7 @@ PhpStorm 的查看工作区文件变更情况远不止查看文件变更历史�
 ## 推送和拉取代码
 
 ### 推送代码到远程
+
 在顶部主菜单选择 `Git` | `Push` 或者使用快捷键 Command Shift K 可以将本地提交的版本推送到远程仓库。
 
 会弹出确认推送的面板，包含需要推送的本地历史提交和推送对应的文件变更列表。
@@ -120,11 +121,11 @@ PhpStorm 的查看工作区文件变更情况远不止查看文件变更历史�
 
 在顶部菜单栏，选择 `Git` -> `Show Git Log`，或者使用快捷键 `Command + 9` 快速切换 Git 提交历史
 
-![](./images/use-process-of-git-version-control/show-git-log.png)
+![Show git log](./images/use-process-of-git-version-control/show-git-log.png)
 
 查看提交历史界面如下：
 
-![](./images/use-process-of-git-version-control/show-git-log-panel.png)
+![Show git log panel](./images/use-process-of-git-version-control/show-git-log-panel.png)
 
 1. 本地和远程分支预览
 2. 分支、用户、时间和路径过滤
@@ -139,11 +140,11 @@ PhpStorm 的查看工作区文件变更情况远不止查看文件变更历史�
 
 在 PhpStorm 中可以通过在主菜单，选择 `Git` -> 点击 `New Branch...` 通过当前分支，创建一个新分支，并且默认情况下会将当前工作区自动切换到新分支上。
 
-![](./images/use-process-of-git-version-control/create-new-branch-from-main-menu.png)
+![Create new branch from main menu](./images/use-process-of-git-version-control/create-new-branch-from-main-menu.png)
 
 或者通过快捷键 `Ctrl + V` 呼出 VSC 操作项。
 
-![](./images/use-process-of-git-version-control/create-new-branch-from-keymap.png)
+![Create new branch from keymap](./images/use-process-of-git-version-control/create-new-branch-from-keymap.png)
 
 接着点击 `Create new branch...`
 

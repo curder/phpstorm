@@ -30,7 +30,7 @@ Material Theme UI 提供了较多风格的主题配色供用户选择，可以�
 
 > **注意：** `~` 在数字 `1` 左侧的按键。
 
-##  Atom One Theme
+## Atom One Theme
 
 Atom One Theme 主题拥有两种颜色搭配，分别是 **Atom One Dark** 和 **Atom One Light**。
 
@@ -49,7 +49,6 @@ Atom One Theme 主题拥有两种颜色搭配，分别是 **Atom One Dark** 和 
 需要激活主题可以使用快捷键 `Ctrl + ~`，在弹出层选择喜好的主题配色。
 
 ![](./images/themes/switch-atom-one-theme.gif)
-
 
 选中上面的主题后按回车确认选择。
 
@@ -77,7 +76,6 @@ Atom One Theme 主题拥有两种颜色搭配，分别是 **Atom One Dark** 和 
 4. 编辑器启用
    1. 在 PhpStorm 的 `Preferences` 偏好设置中选择 `Editor` -> `Color Scheme`
    2. 点击 Scheme 右侧的设置小齿轮，在下拉菜单中选择 `Import Scheme...` 后选择上面下载好的 `laravel-contrast.icls`，启用主题配色
-
 
 ### 自定义主题推荐
 

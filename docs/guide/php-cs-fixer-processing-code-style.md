@@ -27,22 +27,21 @@ which php-cs-fixer
 1. 配置 php-cs-fixer 路径
 
     1. 在 PhpStorm 的 `Preferences` -> `PHP` -> `Quality Tools` 配置界面中，目前还没有配置任何 PHP CS Fixer 路径：
-    
+
         ::: details 点击切换截图展示与隐藏
         ![](./images/php-cs-fixer-processing-code-style/config-php-cs-fixer-integration.png)
         :::
- 
-    
+
     2. 点击上图的 `...` 新增一个配置，在新增的弹出层输入如下配置：
-        
+
         - 1. 新增一个PHP配置 2. 在弹出层的下拉选项选择一个PHP版本 3. 点击 `OK` 确认选择
-        
+
             ::: details 点击切换截图展示与隐藏
             ![](./images/php-cs-fixer-processing-code-style/config-php-cs-fixer-path-step1.png)
             :::
 
         - 2. 在新增的PHP配置中将 phpcs 路径提供
-            
+
             ::: details 点击切换截图展示与隐藏
             ![](./images/php-cs-fixer-processing-code-style/config-php-cs-fixer-path-step2.png)
             :::
@@ -52,7 +51,7 @@ which php-cs-fixer
 2. 启用 PHP CS Fixer
 
     PHP CS Fixer 默认是关闭的，在 PhpStorm 的 `Preferences` -> `Editor` -> `Inspections` 配置界面中，找到右侧 **PHP** | **Quality Tools** | **PHP CS Fixer validation**，并将右侧的 Ruleset 中选择 PSR12 标准。
-    
+
     ::: details 点击切换截图展示与隐藏
     ![](./images/php-cs-fixer-processing-code-style/enable-php-cs-fixer-inspection-use-psr12.png)
     :::
@@ -102,8 +101,7 @@ Route::get('/', function () {return view('welcome');}); // [!code focus]
 
 将这个外部工具命名为 `PHP CS Fixer`，在 Paragam 输入 `php-cs-fixer` 所在系统绝对路径，参数中输入修复指令，这里我们指定路径为当前目录，验证规则为 `PSR-12`，最后点击 `OK` 保存。
 
-
-接下来，就可以在 PhpStorm 的 Project 区域选中某个目录，点击右键，在下拉菜单看到 `External Tools` -> `  PHP CS Fixer` 选项：
+接下来，就可以在 PhpStorm 的 Project 区域选中某个目录，点击右键，在下拉菜单看到 `External Tools` -> `PHP CS Fixer` 选项：
 
 ::: details 点击切换截图展示与隐藏
 ![](./images/php-cs-fixer-processing-code-style/apply-external-tool-php-cs-fixer.png)
@@ -116,7 +114,6 @@ Route::get('/', function () {return view('welcome');}); // [!code focus]
 :::
 
 如果有代码被修正，会列在控制台输出日志中。可以直接在指定目录下执行对应 fix 指令，只不过在 PhpStorm 中通过这种配置外部工具的方式更加直观更加便捷，还可以为这个 PHP CS Fixer 外部工具配置一个快捷键，这样就更加方便。
-
 
 ## 自定义风格配置
 
@@ -195,7 +192,6 @@ php-cs-fixer 支持将项目配置保存在项目根目录中的 `.php-cs-fixer.
     :::
 
     将这个外部工具命名为 `PHP CS Fixer`，在 Paragam 输入 `php-cs-fixer` 所在系统绝对路径，参数中输入修复自定义配置，这里我们指定路径为当前目录，验证规则为 `PSR-12`，最后点击 `OK` 保存。
-
 
 ## 关闭修复输出
 

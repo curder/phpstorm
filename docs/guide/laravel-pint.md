@@ -22,7 +22,6 @@ composer require laravel/pint --dev
 
 ## 运行 Pint
 
-
 可以通过调用项目的 `vendor/bin` 目录中的 `pint` 二进制文件来查看当前项目中代码样式问题：
 
 ```bash
@@ -34,7 +33,6 @@ composer require laravel/pint --dev
 ```bash
 ./vendor/bin/pint -v
 ```
-
 
 如果希望 Pint 仅检查代码中的样式错误而不实际修改文件，可以使用 `--test` 选项：
 
@@ -49,7 +47,7 @@ composer require laravel/pint --dev
 让 [Laravel Print](https://github.com/laravel/pint) 在 PhpStorm 中保存时自动格式化 PHP 代码，可以通过下面的配置进行。
 
 1. 如果开启了 `Refactor Code` 配置，需要关闭 PhpStorm 的 PHP 内置代码格式化
-    
+
     `Command + ,` 系统偏好设置 -> `Tools` -> `Refactor codes` -> 点击 `All file types` 下拉框，反选 `PHP` 即可。
 
     ![](./images/laravel-pint/turn-off-built-in-code-formatting-for-php.png)
@@ -60,7 +58,6 @@ composer require laravel/pint --dev
 
     ![](./images/laravel-pint/add-new-file-watcher.png)
 
-
     - `Program`: `$ProjectFileDir$/vendor/bin/pint`
     - `Arguments`: `$FileRelativePath$`
     - `Output paths to refresh`: `$FileRelativePath$`
@@ -69,6 +66,5 @@ composer require laravel/pint --dev
 3. 检查配置是否正确
 
     ![](./images/laravel-pint/create-a-new-file-watcher-for-laravel-pint.png)
-
 
 4. 在 PHP 文件中测试 pint 是否能正确生效

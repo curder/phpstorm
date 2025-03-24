@@ -12,8 +12,6 @@ PhpStorm 是一个跨平台的 IDE，适用于 `Windows`、`macOS` 和 `Linux`�
 
 PhpStorm 支持不同操作和进程的多线程处理，使其可以使用的 CPU 内核越多越快。推荐在 8GB内存，具有至少 5 GB 可用空间的 SSD 硬盘空间。
 
-
-
 ## 相关资源
 
 - [PhpStorm 官方站点](https://www.jetbrains.com/phpstorm/)

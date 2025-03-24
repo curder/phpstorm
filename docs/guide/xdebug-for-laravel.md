@@ -84,7 +84,7 @@ PhpStorm 内置 Debug 调试支持 Xdebug 和 Zend Debugger，下面演示在 Ph
     1. 安装
        首先，确保在本地 PHP 安装了 xdebug，使用命令 `php --version`，比如：
 
-       ![](./images/xdebug-for-laravel/show-xdebug-extension.png)
+       ![show xdebug extension](images/xdebug-for-laravel/show-xdebug-extension.png)
 
        如果输出信息中没有看到 Xdebug 相关的信息，请来到 [Xdebug 安装向导](https://xdebug.org/wizard) 复制当前使用的 PHP
        的 `phpinfo()` 并粘贴到向导中，按照说明进行操作。
@@ -107,11 +107,11 @@ PhpStorm 内置 Debug 调试支持 Xdebug 和 Zend Debugger，下面演示在 Ph
 
 2. 在编辑器顶部菜单选择 `Run` -> `Edit Configurations...` 打开编辑配置弹出窗
 3. 点击左上角的 + 号添加一个 **PHP Web Page**
-   ![](./images/xdebug-for-laravel/add-new-php-web-page-server-configuration.png)
+   ![Add New Php Web Page Server Configuration](./images/xdebug-for-laravel/add-new-php-web-page-server-configuration.png)
 4. 在配置项中的 Server 段添加一个新的web服务配置，包括名称、URL和端口，以及Debugger选择 Xdebug
-   ![](./images/xdebug-for-laravel/add-new-server-configuration.png)
+   ![Add New Server Configuration](./images/xdebug-for-laravel/add-new-server-configuration.png)
 5. 再回到 **PHP Web Page** 配置，将上一步配置的 Server选择上，并补充名称、起始URL等
-   ![](./images/xdebug-for-laravel/add-new-debug-configuration.png)
+   ![Add New Debug Configuration](./images/xdebug-for-laravel/add-new-debug-configuration.png)
 
 6. 开始调试之前，在需要代码断点处添加断点。然后来到编辑器顶部菜单选择 `Run` -> `Debug '/posts'` 或者直接使用快捷键 Ctrl D。
 
@@ -137,7 +137,7 @@ PhpStorm 内置 Debug 调试支持 Xdebug 和 Zend Debugger，下面演示在 Ph
     1. 安装
        首先，确保在本地 PHP 安装了 xdebug，使用命令 `php --version`，比如：
 
-       ![](./images/xdebug-for-laravel/show-xdebug-extension.png)
+       ![Show xdebug extension](./images/xdebug-for-laravel/show-xdebug-extension.png)
 
        如果输出信息中没有看到 Xdebug 相关的信息，请来到 [Xdebug 安装向导](https://xdebug.org/wizard) 复制当前使用的 PHP
        的 `phpinfo()` 并粘贴到向导中，按照说明进行操作。
@@ -165,25 +165,27 @@ PhpStorm 内置 Debug 调试支持 Xdebug 和 Zend Debugger，下面演示在 Ph
 
     1. 选择需要下载的浏览器拓展：[Xdebug Helper](https://www.jetbrains.com/help/phpstorm/2022.2/browser-debugging-extensions.html)
     2. Google Chrome 浏览器安装 Xdebug Helper
+       <!-- markdownlint-disable MD013 -->
        拓展 [参考 PhpStorm 官方文档](https://www.jetbrains.com/help/phpstorm/2022.2/browser-debugging-extensions.html?utm_source=product&utm_medium=link&utm_campaign=PS&utm_content=2022.2#xdebug-helper-extension)
+       <!-- markdownlint-enable MD013 -->
 
         - 从 [Chrome Web Store](https://chrome.google.com/extensions/detail/eadndfjplgieldjbigjakmdgkmoaaaoc) 为 Chrome
           安装
           Xdebug 帮助程序扩展
         - 从浏览器端启动连接。单击浏览器工具栏上的 Xdebug Helper 图标以启动调试、分析或跟踪会话：
-          ![](./images/xdebug-for-laravel/phpstorm-xdebug-helper-chrome.png)
+          ![Phpstorm xdebug helper chrome](./images/xdebug-for-laravel/phpstorm-xdebug-helper-chrome.png)
         - 右键点击 Xdebug Helper 图标，选择 `选项`，来到它的配置页面，选择 `PhpStorm` 并点击 `Save` 保存配置
-          ![](./images/xdebug-for-laravel/phpstorm-xdebug-helper-chrome-settings.png)
+          ![PhpStorm xdebug helper chrome settings](./images/xdebug-for-laravel/phpstorm-xdebug-helper-chrome-settings.png)
    > 这种方式是可选的，也可以通过URL传递参数 `XDEBUG_SESSION=PHPSTORM` 的方式触发 Debug 调试，只不过通过浏览插件的方式会更加直观。
 3. 配置 PhpStorm
 
    使用快捷键 `Command + ,` 来到 PhpStorm 系统便好设置，选择 `PHP` -> `Debug`，配置如下：
-   ![](./images/xdebug-for-laravel/phpstorm-xdebug-config.png)
+   ![Phpstorm xdebug config](./images/xdebug-for-laravel/phpstorm-xdebug-config.png)
 
 4. 开启监听
 
    在 PhpStorm 中，通过顶部主菜单选择 `Run` -> `Start Listening for PHP Debug Connections` 开始监听 PHP 调试连接
-   ![](./images/xdebug-for-laravel/start-listening-for-php-debug-connections.png)
+   ![Start listening for php debug connections](./images/xdebug-for-laravel/start-listening-for-php-debug-connections.png)
 
 自此，预配置工作已经准备就绪，接下来看一下如何在项目中进行调试。
 
@@ -272,20 +274,20 @@ PhpStorm 内置 Debug 调试支持 Xdebug 和 Zend Debugger，下面演示在 Ph
 
 在访问之前，还需要在代码逻辑中打上断点，比如在 `PostsController` 中新增一个断点，如下：
 
-![](./images/xdebug-for-laravel/create-new-breakpoint.png)
+![Create new breakpoint](./images/xdebug-for-laravel/create-new-breakpoint.png)
 
 ### 开始调试
 
 通过 Curl 命令或 Postman 等工具访问 `/posts` 这个uri，**并添加请求参数 `?XDEBUG_SESSION=PHPSTORM`**，此时浏览器应该停止在正在刷新的界面后点击 `Accept`。
 
-![](./images/xdebug-for-laravel/phpstorm-incoming-connection-from-xdebug.png)
+![Phpstorm incoming connection for xdebug](./images/xdebug-for-laravel/phpstorm-incoming-connection-from-xdebug.png)
 
 **注意：** 首次配置 PhpStorm 会弹出提示层，点击确认即可。此时，在系统偏好设置，`PHP` -> `Servers`
 会添加上刚刚配置的信息，值得注意的是： `Use path mapping` 无需勾选。
-![](./images/xdebug-for-laravel/show-php-servers.png)
+![Show php servers](./images/xdebug-for-laravel/show-php-servers.png)
 
 再次访问可以看到 PhpStorm Debug 调试功能界面一起弹出，此刻可以点击 `Step Over` 或者 `F8` 进入到将逻辑进入到下一行。
-![](./images/xdebug-for-laravel/show-debug-variable.png)
+![Show debug variable](./images/xdebug-for-laravel/show-debug-variable.png)
 
 相比于在代码中添加 `dd()` 或者 `var_dump()` 打印变量的方式不同的是，使用 `xdebug` 调试代码能打印更多的变量、调用栈等信息，方便开发者进行分析。
 

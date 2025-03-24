@@ -31,7 +31,7 @@
                 ->withErrors($validation->messages());
         }
     }
-    ```      
+    ```
 
 - 父类 `Controller`
     ```php
@@ -238,7 +238,7 @@ class Controller extends BaseController
         {
             use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
         }
-        ``` 
+        ```
 
     - 子类 `CartsController`
 
@@ -276,6 +276,5 @@ class Controller extends BaseController
         }
         ```
    :::
-
 
 值得注意的是，由于 PHP 中父类能被多个子类继承，所以父类执行转移方法时候会转移到所有子类。

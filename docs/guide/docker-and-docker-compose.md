@@ -49,7 +49,7 @@ PhpStorm 使用 [Docker插件](https://plugins.jetbrains.com/plugin/7724-docker)
 
 ### 将镜像推送到 Docker Registry 仓库
 
-1. 在服务 `Services` 工具窗口中（使用快捷键 `Command + 8`），选择要上传的镜像并单击 `push image` 按钮或从上下文菜单中选择 `push image` 
+1. 在服务 `Services` 工具窗口中（使用快捷键 `Command + 8`），选择要上传的镜像并单击 `push image` 按钮或从上下文菜单中选择 `push image`
 
    ![](./images/docker-and-docker-compose/phpstorm-docker-push-image.png)
 

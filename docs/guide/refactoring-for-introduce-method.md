@@ -59,7 +59,7 @@ class CartsController extends Controller
    1. 将待重构的代码逻辑选中
    2. 点击主菜单界面选中 `Refactor` -> 并选择 `Refactor This...`
       ![](images/refactoring-for-introduce-method/refactor-introduce-method-step1.png)
-      ::: 
+      :::
 
 2. 在随后弹出的选项列表中选择 `Extract Method...`，并确认选择
 
@@ -67,7 +67,7 @@ class CartsController extends Controller
    ![](images/refactoring-for-introduce-method/refactor-introduce-method-step2.png)
    :::
 
-3. 可以看到重构的代码逻辑已经被重构到 PhpStorm 编辑器默认提供的 `extracted` 方法中，此时可以通过滚动光标查看重构后的代码逻辑 
+3. 可以看到重构的代码逻辑已经被重构到 PhpStorm 编辑器默认提供的 `extracted` 方法中，此时可以通过滚动光标查看重构后的代码逻辑
 
    ::: details 点击展示或隐藏演示图
    1. 重构后方法名
@@ -75,7 +75,7 @@ class CartsController extends Controller
    ![](images/refactoring-for-introduce-method/refactor-introduce-method-step3.png)
    :::
 
-4. 可以修改默认的方法，比如这里将方法名修改为 `save` 
+4. 可以修改默认的方法，比如这里将方法名修改为 `save`
 
    ::: details 点击展示或隐藏演示图
    1. 修改为目标方法 `save`

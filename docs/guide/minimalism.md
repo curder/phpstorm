@@ -59,7 +59,7 @@
     :::
 
 * 方式二：使用快捷键 `Shift` + `Shift` 在弹出的搜索中输入 `Tab placement` 关键字后，按 `Enter` 回车选择隐藏标签
-    
+
     ::: details 点击切换截图展示与隐藏
     ![](./images/minimalism/hidden-tab-placement-keymap.png)
     :::
@@ -94,7 +94,6 @@
 
 ![phpstorm status bar](./images/minimalism/hidden-status-bar.png)
 
-
 * 方式一：在菜单栏依次选择的 `Views` -> `Appearance` -> `Status bar`，点击反选隐藏。
 
     ::: details 点击切换截图展示与隐藏
@@ -112,7 +111,6 @@
 在打开一些文件时，默认在编辑器底部会有该文件的导航信息展示，比如：
 
 ![](./images/minimalism/show-breadcrumbs.png)
-
 
 * 方式一：在 PhpStorm 的 `Preferences` 偏好设置中选择 `Editor` -> `General` -> `Breadcrumbs` 中反选 `Show breadcrumbs` 后，点击 **OK** 保存即可
 
@@ -134,18 +132,16 @@
 ![](./images/minimalism/line-numbers.png)
 :::
 
-- 方式一：在菜单栏依次选择的 `Views` -> `Active Editor` -> `Show Line Numbers`，点击反选隐藏。
+* 方式一：在菜单栏依次选择的 `Views` -> `Active Editor` -> `Show Line Numbers`，点击反选隐藏。
     ::: details 点击切换截图展示与隐藏
     ![Show Line Numbers](./images/minimalism/show-line-numbers.png)
     :::
 
-
-- 方式二：使用快捷键 `Shift` + `Shift` 在弹出的搜索中输入 `Show Line Numbers` 关键字后，按 Enter 回车选择隐藏工具栏
+* 方式二：使用快捷键 `Shift` + `Shift` 在弹出的搜索中输入 `Show Line Numbers` 关键字后，按 Enter 回车选择隐藏工具栏
 
     ::: details 点击切换截图展示与隐藏
     ![Show Line Numbers](./images/minimalism/show-line-numbers-keymap.png)
     :::
-
 
 ## 浏览器 Web Browsers
 
@@ -153,16 +149,13 @@
 
 ![](./images/minimalism/web-browsers.png)
 
-
 大多数时候开发的都是单入口项目，这些浏览器对开发可能没什么帮助，使用下面的方式可以关闭它：
-
 
 在 PhpStorm 的 `Preferences` 偏好设置中选择 `Tools` -> `Web Browsers and Preview` -> `Show browser popup in the editor` 中**不勾选** `For HTML files` 和 `For XML files` 后，点击 **OK** 保存即可
 
 ::: details 点击切换截图展示与隐藏
 ![Show breadcrumbs steps](./images/minimalism/hidden-web-browsers-steps.png)
 :::
-
 
 ## 自动换行 Soft-Wrap
 
@@ -172,7 +165,7 @@
 ![Soft-Wrap](./images/minimalism/soft-wrap.png)
 :::
 
-- 方式一：在菜单栏依次选择的 `Views` -> `Active Editor` -> `Soft-Wrap`，点击反选隐藏。
+* 方式一：在菜单栏依次选择的 `Views` -> `Active Editor` -> `Soft-Wrap`，点击反选隐藏。
 
     ::: details 点击切换截图展示与隐藏
     ![](./images/minimalism/soft-wrap-steps.png)
@@ -184,7 +177,6 @@
     ![](./images/minimalism/soft-wrap-keymap.png)
     :::
 
-
 ## 代码折叠 Show code folding outline
 
 在一些代码中会出现代码折叠操作按钮，如下：
@@ -195,7 +187,7 @@
 
 可以通过下面的方式对其进行隐藏：
 
-- 方式一：在 PhpStorm 的 `Preferences` 偏好设置中选择 `Editor` -> `General` -> `Code Folding` 中不勾选 `Show code folding outline` 后，点击 **OK** 保存即可
+* 方式一：在 PhpStorm 的 `Preferences` 偏好设置中选择 `Editor` -> `General` -> `Code Folding` 中不勾选 `Show code folding outline` 后，点击 **OK** 保存即可
 
     ::: details 点击切换截图展示与隐藏
     ![](./images/minimalism/show-code-folding-outline-steps.png)
@@ -215,13 +207,13 @@
 
 使用下面的方式可以关闭它，例如：
 
-- 方式一：在菜单栏依次选择的 `Views` -> `Active Editor` -> `Show whitespaces`，点击反选隐藏。
+* 方式一：在菜单栏依次选择的 `Views` -> `Active Editor` -> `Show whitespaces`，点击反选隐藏。
 
     ::: details 点击切换截图展示与隐藏
     ![](./images/minimalism/whitespace-steps.png)
     :::
 
-- 方式二：使用快捷键 `Shift` + `Shift` 在弹出的搜索中输入 `Show Whitespaces` 关键字后，按 Enter 回车选择隐藏代码折叠
+* 方式二：使用快捷键 `Shift` + `Shift` 在弹出的搜索中输入 `Show Whitespaces` 关键字后，按 Enter 回车选择隐藏代码折叠
 
     ::: details 点击切换截图展示与隐藏
     ![](./images/minimalism/whitespace-keymap.png)
@@ -253,7 +245,7 @@
 
 可以使用如下方式进行关闭：
 
-- 方式一：在 PhpStorm 的 `Preferences` 偏好设置中选择 `Editor` -> `General` -> `Appearance` 中不勾选 `Show method separators` 后，点击 **OK** 保存即可
+* 方式一：在 PhpStorm 的 `Preferences` 偏好设置中选择 `Editor` -> `General` -> `Appearance` 中不勾选 `Show method separators` 后，点击 **OK** 保存即可
 
     ::: details 点击切换截图展示与隐藏
     ![](./images/minimalism/show-method-separators-steps.png)
@@ -264,7 +256,6 @@
     ::: details 点击切换截图展示与隐藏
     ![](./images/minimalism/show-method-separators-keymap.png)
     :::
-
 
 ## 无干扰模式 distraction free mode
 
@@ -277,7 +268,7 @@
     :::
 
 * 方式二：在菜单栏依次选择的 `Views` -> `Appearance` -> `Enter Distraction Free Mode`，点击启用。
-    
+
     ::: details 点击切换截图展示与隐藏
     ![](./images/minimalism/distraction-free-mode-steps.png)
     :::

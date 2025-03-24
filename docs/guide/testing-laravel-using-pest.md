@@ -104,7 +104,7 @@ php artisan pest:install
 
 Pest 当前支持 PhpStorm 和 VSCode，可以在这里查看：[docs/ide-plugins](https://pestphp.com/docs/ide-plugins)，PhpStorm 安装插件的流程如下：
 
-1. 使用快捷键 `⌘ +` ,，打开 IDE 设置并选择 `Plugins` -> `Marketplace` 
+1. 使用快捷键 `⌘ +` ,，打开 IDE 设置并选择 `Plugins` -> `Marketplace`
 
     ![](./images/testing-laravel-using-pest/search-plugin-step.png)
 
@@ -128,10 +128,10 @@ Pest 当前支持 PhpStorm 和 VSCode，可以在这里查看：[docs/ide-plugin
 
     2. 输入如下内容：
 
-        1. 在 **Path to Pest executable:** 输入当前项目的绝对路径 + `vendor/bin/pest` 
+        1. 在 **Path to Pest executable:** 输入当前项目的绝对路径 + `vendor/bin/pest`
 
         2. 在 `Test Runner` 分组勾选上 **Default configuration file:** 输入当前项目的绝对路径 + `phpunit.xml`
-        
+
         ::: details 点击切换截图展示与隐藏
         ![](./images/testing-laravel-using-pest/config-pest-local-setting.png)
         :::
@@ -141,4 +141,3 @@ Pest 当前支持 PhpStorm 和 VSCode，可以在这里查看：[docs/ide-plugin
 下面是使用 pest 集成到 PhpStorm 中运行后的结果：
 
 ![](./images/testing-laravel-using-pest/run-pest-tests-using-phpstorm-plugin.png)
-

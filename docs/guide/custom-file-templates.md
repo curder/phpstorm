@@ -4,11 +4,10 @@
 
 PhpStorm 默认内置一些文件模版，要定位到自定义文件模版有如下两种方式：
 
-1. 在 PhpStorm 的 `Preferences` 偏好设置中选择 `Editor` -> `File and Code Templates` 
-
+1. 在 PhpStorm 的 `Preferences` 偏好设置中选择 `Editor` -> `File and Code Templates`
 
 2. 或者通过快捷键 `Command + Shift + A` 呼出 `Action` 导航界面，在输入框输入 `file and code templates`，在下拉列表中选中`File and Code Templates`：
-        
+
     ::: details 点击切换截图展示与隐藏
     ![](./images/custom-file-templates/search-file-and-code-templates.png)
     :::
@@ -44,7 +43,7 @@ class ${NAME} {
 
 - `#parse("PHP File Header.php")` 引用公共头文件，在 `Includes` 中的 `PHP File Header`定义，如下图所示：
     ![](./images/custom-file-templates/default-php-file-header.png)
-- `#if (${NAMESPACE})` 判断是否包含命名空间，如果新建文件时提供了就会在创建文件时添上    
+- `#if (${NAMESPACE})` 判断是否包含命名空间，如果新建文件时提供了就会在创建文件时添上
 - `${NAME}` 为创建的文件名
 
 ## 编辑模版

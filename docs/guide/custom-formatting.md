@@ -10,7 +10,6 @@ PhpStorm 允许在当前编辑器自定义代码风格或 `.editorconfig` 文件
 
 > 如果当前没有选择代码片段，PhpStorm 将重新格式化整个文件
 
-
 ## 重新格式化文件
 
 在编辑器中打开文件并按 `Option（或 Alt）⌥ + Shift ⇧ + Command ⌘ + L` ，或在顶部菜单栏选择 `Code` -> `Refomating File...`。
@@ -34,16 +33,15 @@ PhpStorm 允许在当前编辑器自定义代码风格或 `.editorconfig` 文件
    3. 如果当前项目使用版本控制，可以选择整个文件或更改的行
       如果选择 `Changed lines`，则重新格式化将仅适用于已在本地更改但尚未提交到版本库的代码行
 
-
 ## 自定义代码风格
 
 上面说到的都是如何执行重新格式化代码风格，那么如何自定义代码风格呢？
 
 在 PhpStorm 中使用快捷键 `Command + ,` 打开偏好设置，选择 `Editors` -> `Code Style` -> 选择文件类型，这里选择 `PHP`
 ![](./images/custom-formatting/custom-formating-for-code-style.png)
-  - 在 `Scheme` 可以选择当前查看或者带修改的是是 `Project` 级别还是 `Default`级别，两者应用的范围不一致。其中 `Project` 是记录到当前项目，而 `Default` 是对整个编辑器生效。
-  - PhpStorm 也提供了一些默认的代码风格预设，比如：`Symfony2`、`Laravel`、`PSR12` 等等，点击右侧的 `Set from...` 可以选择。
-    ![](./images/custom-formatting/custom-formating-for-code-style-preset.png)    
+* 在 `Scheme` 可以选择当前查看或者带修改的是是 `Project` 级别还是 `Default`级别，两者应用的范围不一致。其中 `Project` 是记录到当前项目，而 `Default` 是对整个编辑器生效。
+* PhpStorm 也提供了一些默认的代码风格预设，比如：`Symfony2`、`Laravel`、`PSR12` 等等，点击右侧的 `Set from...` 可以选择。
+    ![](./images/custom-formatting/custom-formating-for-code-style-preset.png)
 
-  - 在代码风格切换条可以看到 `制表符和缩进` `空白` `包裹和支撑` `空行` `PHPDOC` `代码转换` `代码生成` `排列` 等配置组，可以根据实际需要进行调整。
+* 在代码风格切换条可以看到 `制表符和缩进` `空白` `包裹和支撑` `空行` `PHPDOC` `代码转换` `代码生成` `排列` 等配置组，可以根据实际需要进行调整。
     > **温馨提示：** 建议调整前复制一份当前代码风格的配置后再进行调整，这样不会破坏系统之前的配置。
